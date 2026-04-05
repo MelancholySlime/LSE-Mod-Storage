@@ -1,0 +1,43 @@
+name: LOLSkinEmpire LSE Auto Scraper
+
+on:
+  workflow_dispatch:
+    # LSE không yêu cầu chạy theo giờ
+
+jobs:
+  scrape-lse-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            .github
+            _lse_scraped.json
+            _lse_files.json
+          sparse-checkout-cone-mode: false
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 gdown
+
+      - name: Run LSE Scraper
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LSE_SCRAPER_SCRIPT: ${{ secrets.LSE_SCRAPER_SCRIPT }}
+        run: |
+          echo "lse_auto.py" >> .gitignore
+          python -c "import os; open('lse_auto.py', 'w', encoding='utf-8').write(os.environ['LSE_SCRAPER_SCRIPT'])"
+          python lse_auto.py
+          rm lse_auto.py
