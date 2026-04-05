@@ -1,0 +1,5 @@
+[LARGE FILE - STORED IN GITHUB RELEASES]
+Filename : Frozen Rift.zip
+Mod      : Frozen Rift
+Source   : https://lolskinempire.com/skins/map/frozen-rift/
+Download : https://github.com/MelancholySlime/LSE-Mod-Storage/releases/download/Frozen_Rift/Frozen.Rift.zip
