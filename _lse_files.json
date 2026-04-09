@@ -3,25 +3,32 @@
     "LSE_Storage1": 1
   },
   "part_mod_counts": {
-    "LSE_Storage1/Part1": 59
+    "LSE_Storage1/Part1": 73
   },
   "files": [
     "LSE_Storage1/Part1/Arcade Riven Chroma/Arcade Riven Chroma.zip",
     "LSE_Storage1/Part1/Battle Hound Fiora/Battle Hound Fiora.zip",
+    "LSE_Storage1/Part1/Bilgewater Recall VFX/Bilgewater Recall VFX.zip",
+    "LSE_Storage1/Part1/Blue Sentinel Alistar/Blue Sentinel Alistar.zip",
     "LSE_Storage1/Part1/Broken Covenant Diana/Broken Covenant Diana.zip",
     "LSE_Storage1/Part1/Broken Covenant Syndra/Broken Covenant Syndra.zip",
+    "LSE_Storage1/Part1/Coven Katarina/Coven Katarina.zip",
     "LSE_Storage1/Part1/Coven Mel/Coven Mel.zip",
     "LSE_Storage1/Part1/Crystal Rose Lux/Crystal Rose Lux.zip",
     "LSE_Storage1/Part1/Crystal Rose Vayne/Crystal Rose Vayne.zip",
     "LSE_Storage1/Part1/Crystal Rose Vi/Crystal Rose Vi.zip",
     "LSE_Storage1/Part1/Crystal Rose Viego/Crystal Rose Viego.zip",
     "LSE_Storage1/Part1/Crystal Rose Yone/Crystal Rose Yone.zip",
+    "LSE_Storage1/Part1/Dark Star Rift/Dark Star Rift_large_file.txt",
+    "LSE_Storage1/Part1/Dawnbringer Katarina/Dawnbringer Katarina.zip",
+    "LSE_Storage1/Part1/Dawnbringer Morgana Edit/Dawnbringer Morgana Edit.zip",
     "LSE_Storage1/Part1/Dream Dragon Riven/Dream Dragon Riven.zip",
     "LSE_Storage1/Part1/Edgy Crime City Twitch/Edgy Crime City Twitch.zip",
     "LSE_Storage1/Part1/Esdeath Fiora/Esdeath Fiora.zip",
     "LSE_Storage1/Part1/Ezreal Gohan/Ezreal Gohan.zip",
     "LSE_Storage1/Part1/Faerie Court LeBlanc/Faerie Court LeBlanc.zip",
     "LSE_Storage1/Part1/Faerie Court Yunara/Faerie Court Yunara.zip",
+    "LSE_Storage1/Part1/Festive Recall VFX/Festive Recall VFX.zip",
     "LSE_Storage1/Part1/Firecracker Katarina/Firecracker Katarina.zip",
     "LSE_Storage1/Part1/Food Spirits Yuumi/Food Spirits Yuumi.zip",
     "LSE_Storage1/Part1/Frieza Malzahar/Frieza Malzahar.zip",
@@ -30,6 +37,7 @@
     "LSE_Storage1/Part1/Glorious Lulu/Glorious Lulu.zip",
     "LSE_Storage1/Part1/Glorious Orianna/Glorious Orianna.zip",
     "LSE_Storage1/Part1/Glorious Tryndamere/Glorious Tryndamere.zip",
+    "LSE_Storage1/Part1/Heartseeker Katarina (2017)/Heartseeker Katarina (2017).zip",
     "LSE_Storage1/Part1/Jellal Ryze/Jellal Ryze.zip",
     "LSE_Storage1/Part1/Loud Sejuani/Loud Sejuani.zip",
     "LSE_Storage1/Part1/Madara Yasuo/Madara Yasuo.zip",
@@ -45,11 +53,14 @@
     "LSE_Storage1/Part1/Primetime Zed/Primetime Zed.zip",
     "LSE_Storage1/Part1/Pumpkinghead Soraka/Pumpkinghead Soraka.zip",
     "LSE_Storage1/Part1/Pumpkinghead Teemo/Pumpkinghead Teemo.zip",
+    "LSE_Storage1/Part1/Reindeer Katarina (Slay Belle texture edit)/Reindeer Katarina (Slay Belle texture edit).zip",
     "LSE_Storage1/Part1/Snowman Aatrox/Snowman Aatrox.zip",
     "LSE_Storage1/Part1/Snowman Riven/Snowman Riven.zip",
     "LSE_Storage1/Part1/Soul Fighter Yasuo/Soul Fighter Yasuo.zip",
+    "LSE_Storage1/Part1/Spirit Blossom Zyra/Spirit Blossom Zyra.zip",
     "LSE_Storage1/Part1/Star Guardian Thresh/Star Guardian Thresh.zip",
     "LSE_Storage1/Part1/Stone Cold Gangplank/Stone Cold Gangplank.zip",
-    "LSE_Storage1/Part1/Suicide Squad Joker Shaco/Suicide Squad Joker Shaco.zip"
+    "LSE_Storage1/Part1/Suicide Squad Joker Shaco/Suicide Squad Joker Shaco.zip",
+    "LSE_Storage1/Part1/Yellow Demon Volibear/Yellow Demon Volibear.zip"
   ]
 }
