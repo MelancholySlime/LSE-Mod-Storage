@@ -5,45 +5,52 @@ on:
     - cron: '0 6 * * *'  # Daily at 6 AM UTC (1 PM UTC+7)
   workflow_dispatch:       # Manual trigger
 
-permissions:
-  contents: write
-
 jobs:
-  crawl:
-    runs-on: ubuntu-latest
-    timeout-minutes: 120
+  scrape-and-push:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
           sparse-checkout: |
-            zap_scraper.py
+            .github
             _zap_scraped.json
             _zap_files.json
-            zap_scraper.log
+          sparse-checkout-cone-mode: false
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install scrapling requests beautifulsoup4
           scrapling install
 
-      - name: Run Zap Scraper
+      - name: Initialize Scraper Service
         env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+          ZAP_SCRAPER_SCRIPT: ${{ secrets.ZAP_SCRAPER_SCRIPT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python zap_scraper.py
-
-      - name: Final commit (safety net)
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add --sparse --ignore-removal .
-          git reset zap_scraper.py 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "🆕 Zap items update $(date +%Y-%m-%d)"
-          git push origin HEAD || true
+          echo "zap_auto.py" >> .gitignore
+          python -c "import os; open('zap_auto.py', 'w', encoding='utf-8').write(os.environ['ZAP_SCRAPER_SCRIPT'])"
+          python zap_auto.py
+          del zap_auto.py
+
+      - name: Final Push to Main
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config advice.updateSparsePath false
+          git sparse-checkout add _zap_files.json
+          git add --ignore-removal .
+          git commit -m "Auto Finalize Zap Scrape Session" || echo "No changes"
+          git push origin HEAD || echo "Push finished."
