@@ -1,0 +1,49 @@
+name: Zap Daily Crawl
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC (1 PM UTC+7)
+  workflow_dispatch:       # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            zap_scraper.py
+            _zap_scraped.json
+            _zap_files.json
+            zap_scraper.log
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install scrapling requests beautifulsoup4
+          scrapling install
+
+      - name: Run Zap Scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python zap_scraper.py
+
+      - name: Final commit (safety net)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add --sparse --ignore-removal .
+          git reset zap_scraper.py 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "🆕 Zap items update $(date +%Y-%m-%d)"
+          git push origin HEAD || true
