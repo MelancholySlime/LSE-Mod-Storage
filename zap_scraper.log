@@ -1,0 +1,1887 @@
+2026-04-14 08:49:09,221 [INFO] ============================================================
+2026-04-14 08:49:09,221 [INFO] Zap Shop Scraper — Zap_Mod_Storage Edition
+2026-04-14 08:49:09,221 [INFO] Target: https://ko-fi.com/X8X21LGPB2/shop
+2026-04-14 08:49:09,221 [INFO] Items: 85
+2026-04-14 08:49:09,221 [INFO] Email: particular.alligator.ukqs@hidingmail.com
+2026-04-14 08:49:09,221 [INFO] Mode: FULL
+2026-04-14 08:49:09,221 [INFO] Headless: True
+2026-04-14 08:49:09,221 [INFO] Workspace: D:\a\LSE-Mod-Storage\LSE-Mod-Storage
+2026-04-14 08:49:09,221 [INFO] ============================================================
+2026-04-14 08:49:09,221 [INFO] 🌍 Bootstrap: Building index from Cloud structure...
+2026-04-14 08:49:10,079 [WARNING]   ⚠️ Cannot fetch raw JSON (404), using local only.
+2026-04-14 08:49:10,079 [INFO]   💾 Saved JSON: 0 total paths.
+2026-04-14 08:49:10,081 [INFO]   🎉 Bootstrap done! 0 mods across 0 Parts.
+2026-04-14 08:49:10,083 [INFO] 
+🚀 Starting AsyncStealthySession for discovery and processing...
+2026-04-14 08:49:11,914 [INFO] ✅ Browser session started!
+2026-04-14 08:49:16,025 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:49:16,047 [INFO] Cloudflare captcha is solved
+2026-04-14 08:49:16,052 [INFO] 
+🔍 Discovering new shop items from: https://ko-fi.com/X8X21LGPB2/shop
+2026-04-14 08:49:20,153 [INFO]   📜 Scrolled... found 28 items
+2026-04-14 08:49:22,240 [INFO]   📜 Scrolled... found 40 items
+2026-04-14 08:49:24,357 [INFO]   📜 Scrolled... found 52 items
+2026-04-14 08:49:26,496 [INFO]   📜 Scrolled... found 64 items
+2026-04-14 08:49:28,672 [INFO]   📜 Scrolled... found 76 items
+2026-04-14 08:49:30,848 [INFO]   📜 Scrolled... found 88 items
+2026-04-14 08:49:33,037 [INFO]   📜 Scrolled... found 100 items
+2026-04-14 08:49:35,242 [INFO]   📜 Scrolled... found 112 items
+2026-04-14 08:49:37,480 [INFO]   📜 Scrolled... found 113 items
+2026-04-14 08:50:44,807 [INFO] ✨ Total items discovered: 109
+2026-04-14 08:50:44,858 [INFO] Fetched (200) <GET https://ko-fi.com/X8X21LGPB2/shop> (referer: https://www.google.com/)
+2026-04-14 08:50:44,881 [INFO] 
+New items to process: 109
+2026-04-14 08:50:44,881 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:50:44,881 [INFO] [1/109] Processing: Zoe Mukuro
+2026-04-14 08:50:44,881 [INFO]   URL: https://ko-fi.com/s/52dbad1525
+2026-04-14 08:50:44,881 [INFO]   Name: Nguyen Meyer
+2026-04-14 08:50:44,881 [INFO]   Target: Part1/Zoe Mukuro/
+2026-04-14 08:50:46,509 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:50:46,517 [INFO] Cloudflare captcha is solved
+2026-04-14 08:50:50,131 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:50:51,096 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:50:51,919 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:50:52,995 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:50:55,654 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:50:56,531 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:50:59,038 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:51:02,786 [INFO]   [Step 4] Email filled
+2026-04-14 08:51:04,873 [INFO]   [Step 4] Name filled: Nguyen Meyer
+2026-04-14 08:51:06,613 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:51:08,129 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:51:21,279 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=72668ec5-8486-4a75-903c-9dd0250a2bb2&mode=g
+2026-04-14 08:51:21,279 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:51:22,068 [INFO]   [Step 6] Clicked View Content
+2026-04-14 08:51:46,990 [INFO]   ✅ Downloaded: Zoe Mukuro.fantome (41.32 MB)
+2026-04-14 08:51:47,343 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=72668ec5-8486-4a75-903c-9dd0250a2bb2&mode=g> (referer: https://www.google.com/)
+2026-04-14 08:51:47,773 [INFO]   📊 Batch size: 41.32 MB / 999 MB
+2026-04-14 08:51:47,773 [INFO]   ✅ Zoe Mukuro completed!
+2026-04-14 08:51:47,773 [INFO]   ⏳ Waiting 16.4s...
+2026-04-14 08:52:04,141 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:52:04,141 [INFO] [2/109] Processing: Aurora Ai
+2026-04-14 08:52:04,141 [INFO]   📦 Placing in Part1 (1/990 mods)
+2026-04-14 08:52:04,141 [INFO]   URL: https://ko-fi.com/s/269054ded3
+2026-04-14 08:52:04,141 [INFO]   Name: Rizky Smith
+2026-04-14 08:52:04,141 [INFO]   Target: Part1/Aurora Ai/
+2026-04-14 08:52:05,409 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:52:05,421 [INFO] Cloudflare captcha is solved
+2026-04-14 08:52:07,857 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:52:08,661 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:52:10,036 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:52:11,267 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:52:13,813 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:52:14,468 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:52:17,794 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:52:21,288 [INFO]   [Step 4] Email filled
+2026-04-14 08:52:23,235 [INFO]   [Step 4] Name filled: Rizky Smith
+2026-04-14 08:52:24,374 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:52:26,334 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:52:32,418 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=239d48b6-0d92-4582-8c81-cf1b2e500fd9&mode=g
+2026-04-14 08:52:32,418 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:52:32,507 [INFO]   [Step 6] Clicked View Content
+2026-04-14 08:52:46,556 [INFO]   ✅ Downloaded: Aurora Ai.fantome (12.22 MB)
+2026-04-14 08:52:46,984 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=239d48b6-0d92-4582-8c81-cf1b2e500fd9&mode=g> (referer: https://www.google.com/)
+2026-04-14 08:52:47,411 [INFO]   📊 Batch size: 53.54 MB / 999 MB
+2026-04-14 08:52:47,412 [INFO]   ✅ Aurora Ai completed!
+2026-04-14 08:52:47,412 [INFO]   ⏳ Waiting 10.0s...
+2026-04-14 08:52:57,434 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:52:57,434 [INFO] [3/109] Processing: Annie Sugar
+2026-04-14 08:52:57,434 [INFO]   📦 Placing in Part1 (2/990 mods)
+2026-04-14 08:52:57,434 [INFO]   URL: https://ko-fi.com/s/7f50cd3712
+2026-04-14 08:52:57,434 [INFO]   Name: Siriporn Wongchai
+2026-04-14 08:52:57,434 [INFO]   Target: Part1/Annie Sugar/
+2026-04-14 08:52:58,810 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:52:58,818 [INFO] Cloudflare captcha is solved
+2026-04-14 08:53:01,309 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:53:02,495 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:53:03,396 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:53:04,263 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:53:07,563 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:53:08,488 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:53:11,978 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:53:15,791 [INFO]   [Step 4] Email filled
+2026-04-14 08:53:17,752 [INFO]   [Step 4] Name filled: Siriporn Wongchai
+2026-04-14 08:53:19,204 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:53:20,290 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:53:28,690 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=908dc9ec-3c1a-4b74-a3ac-ddb0c2d35850&mode=g
+2026-04-14 08:53:28,690 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:53:28,773 [INFO]   [Step 6] Clicked View Content
+2026-04-14 08:53:40,249 [INFO]   ✅ Downloaded: Annie Sugar.fantome (7.22 MB)
+2026-04-14 08:53:40,673 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=908dc9ec-3c1a-4b74-a3ac-ddb0c2d35850&mode=g> (referer: https://www.google.com/)
+2026-04-14 08:53:40,934 [INFO]   📊 Batch size: 60.76 MB / 999 MB
+2026-04-14 08:53:40,936 [INFO]   ✅ Annie Sugar completed!
+2026-04-14 08:53:40,936 [INFO]   ⏳ Waiting 11.0s...
+2026-04-14 08:53:51,987 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:53:51,987 [INFO] [4/109] Processing: Mel Female Levi
+2026-04-14 08:53:51,987 [INFO]   📦 Placing in Part1 (3/990 mods)
+2026-04-14 08:53:51,987 [INFO]   URL: https://ko-fi.com/s/97961ff240
+2026-04-14 08:53:51,987 [INFO]   Name: Rizky Simon
+2026-04-14 08:53:51,987 [INFO]   Target: Part1/Mel Female Levi/
+2026-04-14 08:53:53,299 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:53:53,309 [INFO] Cloudflare captcha is solved
+2026-04-14 08:53:55,941 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:53:56,990 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:53:58,063 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:53:58,790 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:54:02,745 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:54:03,417 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:54:06,379 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:54:08,647 [INFO]   [Step 4] Email filled
+2026-04-14 08:54:10,965 [INFO]   [Step 4] Name filled: Rizky Simon
+2026-04-14 08:54:12,766 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:54:14,060 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:54:23,489 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=bc3d53cc-aa06-40d0-a083-1ac810fe2dde&mode=g
+2026-04-14 08:54:23,489 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:54:23,565 [INFO]   [Step 6] Clicked View Content
+2026-04-14 08:54:35,293 [INFO]   ✅ Downloaded: Mel Female Levi.fantome (11.92 MB)
+2026-04-14 08:54:35,596 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=bc3d53cc-aa06-40d0-a083-1ac810fe2dde&mode=g> (referer: https://www.google.com/)
+2026-04-14 08:54:36,061 [INFO]   📊 Batch size: 72.68 MB / 999 MB
+2026-04-14 08:54:36,061 [INFO]   ✅ Mel Female Levi completed!
+2026-04-14 08:54:36,061 [INFO]   ⏳ Waiting 20.0s...
+2026-04-14 08:54:56,040 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:54:56,040 [INFO] [5/109] Processing: Yone Kaneki
+2026-04-14 08:54:56,040 [INFO]   📦 Placing in Part1 (4/990 mods)
+2026-04-14 08:54:56,040 [INFO]   URL: https://ko-fi.com/s/67c5a2b993
+2026-04-14 08:54:56,040 [INFO]   Name: Klaus Cruz
+2026-04-14 08:54:56,040 [INFO]   Target: Part1/Yone Kaneki/
+2026-04-14 08:54:57,345 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:54:57,353 [INFO] Cloudflare captcha is solved
+2026-04-14 08:55:00,058 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:55:00,915 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:55:01,877 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:55:02,523 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:55:05,920 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:55:06,813 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:55:09,603 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:55:12,135 [INFO]   [Step 4] Email filled
+2026-04-14 08:55:14,018 [INFO]   [Step 4] Name filled: Klaus Cruz
+2026-04-14 08:55:15,284 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:55:16,850 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:55:27,642 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=b7f9dc40-fae1-46f8-9442-228b236e2956&mode=g
+2026-04-14 08:55:27,642 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:55:27,719 [INFO]   [Step 6] Clicked View Content
+2026-04-14 08:55:39,442 [INFO]   ✅ Downloaded: Yone Kaneki.fantome (12.21 MB)
+2026-04-14 08:55:40,006 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=b7f9dc40-fae1-46f8-9442-228b236e2956&mode=g> (referer: https://www.google.com/)
+2026-04-14 08:55:40,270 [INFO]   📊 Batch size: 84.89 MB / 999 MB
+2026-04-14 08:55:40,270 [INFO]   ✅ Yone Kaneki completed!
+2026-04-14 08:55:40,270 [INFO]   ☕ Cooloff: 44.3s
+2026-04-14 08:56:24,527 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:56:24,527 [INFO] [6/109] Processing: Ahri Hakari
+2026-04-14 08:56:24,527 [INFO]   📦 Placing in Part1 (5/990 mods)
+2026-04-14 08:56:24,527 [INFO]   URL: https://ko-fi.com/s/e2525bf858
+2026-04-14 08:56:24,527 [INFO]   Name: Kanya Vo
+2026-04-14 08:56:24,527 [INFO]   Target: Part1/Ahri Hakari/
+2026-04-14 08:56:25,847 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:56:25,855 [INFO] Cloudflare captcha is solved
+2026-04-14 08:56:28,281 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:56:29,641 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:56:30,911 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:56:32,003 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:56:35,162 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:56:36,264 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:56:38,745 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:56:41,689 [INFO]   [Step 4] Email filled
+2026-04-14 08:56:43,177 [INFO]   [Step 4] Name filled: Kanya Vo
+2026-04-14 08:56:44,417 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:56:45,322 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:56:53,359 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=f7f68ad2-203b-47ab-891c-1edf81fb1f0a&mode=g
+2026-04-14 08:56:53,359 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:56:53,427 [INFO]   [Step 6] Clicked View Content
+2026-04-14 08:57:06,822 [INFO]   ✅ Downloaded: Ahri Hakari.fantome (14.31 MB)
+2026-04-14 08:57:07,233 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=f7f68ad2-203b-47ab-891c-1edf81fb1f0a&mode=g> (referer: https://www.google.com/)
+2026-04-14 08:57:07,674 [INFO]   📊 Batch size: 99.20 MB / 999 MB
+2026-04-14 08:57:07,674 [INFO]   ✅ Ahri Hakari completed!
+2026-04-14 08:57:07,674 [INFO]   ⏳ Waiting 10.2s...
+2026-04-14 08:57:17,852 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:57:17,852 [INFO] [7/109] Processing: Twisted Fate Sir
+2026-04-14 08:57:17,852 [INFO]   📦 Placing in Part1 (6/990 mods)
+2026-04-14 08:57:17,852 [INFO]   URL: https://ko-fi.com/s/acbee60646
+2026-04-14 08:57:17,852 [INFO]   Name: Apinya Jones
+2026-04-14 08:57:17,852 [INFO]   Target: Part1/Twisted Fate Sir/
+2026-04-14 08:57:21,476 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:57:21,485 [INFO] Cloudflare captcha is solved
+2026-04-14 08:57:23,691 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:57:24,862 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:57:26,079 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:57:27,236 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:57:30,599 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:57:31,320 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:57:33,622 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:57:36,422 [INFO]   [Step 4] Email filled
+2026-04-14 08:57:38,539 [INFO]   [Step 4] Name filled: Apinya Jones
+2026-04-14 08:57:40,088 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:57:41,524 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:57:51,088 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=4102d68f-1da2-4949-a39d-c95ca4bcf7fa&mode=g
+2026-04-14 08:57:51,088 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:57:51,163 [INFO]   [Step 6] Clicked View Content
+2026-04-14 08:58:03,259 [INFO]   ✅ Downloaded: Twisted Fate Sir.fantome (11.42 MB)
+2026-04-14 08:58:03,610 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=4102d68f-1da2-4949-a39d-c95ca4bcf7fa&mode=g> (referer: https://www.google.com/)
+2026-04-14 08:58:03,906 [INFO]   📊 Batch size: 110.61 MB / 999 MB
+2026-04-14 08:58:03,906 [INFO]   ✅ Twisted Fate Sir completed!
+2026-04-14 08:58:03,922 [INFO]   ⏳ Waiting 13.2s...
+2026-04-14 08:58:17,098 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:58:17,098 [INFO] [8/109] Processing: Miss Fortune White Queen
+2026-04-14 08:58:17,098 [INFO]   📦 Placing in Part1 (7/990 mods)
+2026-04-14 08:58:17,098 [INFO]   URL: https://ko-fi.com/s/65f95b9a33
+2026-04-14 08:58:17,098 [INFO]   Name: Tran Lefevre
+2026-04-14 08:58:17,098 [INFO]   Target: Part1/Miss Fortune White Queen/
+2026-04-14 08:58:18,402 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:58:18,410 [INFO] Cloudflare captcha is solved
+2026-04-14 08:58:22,383 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:58:23,500 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:58:24,336 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:58:25,179 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:58:28,383 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:58:29,274 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:58:31,600 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:58:34,624 [INFO]   [Step 4] Email filled
+2026-04-14 08:58:36,063 [INFO]   [Step 4] Name filled: Tran Lefevre
+2026-04-14 08:58:37,548 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:58:39,031 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:58:46,660 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=c38c87f8-0820-4dd4-9479-3e072ff2510a&mode=g
+2026-04-14 08:58:46,660 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:58:46,750 [INFO]   [Step 6] Clicked View Content
+2026-04-14 08:58:55,781 [INFO]   ✅ Downloaded: Miss Fortune White Queen.fantome (5.33 MB)
+2026-04-14 08:58:56,568 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=c38c87f8-0820-4dd4-9479-3e072ff2510a&mode=g> (referer: https://www.google.com/)
+2026-04-14 08:58:57,168 [INFO]   📊 Batch size: 115.94 MB / 999 MB
+2026-04-14 08:58:57,168 [INFO]   ✅ Miss Fortune White Queen completed!
+2026-04-14 08:58:57,168 [INFO]   ⏳ Waiting 17.8s...
+2026-04-14 08:59:14,932 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 08:59:14,932 [INFO] [9/109] Processing: Qiyana Zeta
+2026-04-14 08:59:14,932 [INFO]   📦 Placing in Part1 (8/990 mods)
+2026-04-14 08:59:14,934 [INFO]   URL: https://ko-fi.com/s/e13ffe5e24
+2026-04-14 08:59:14,934 [INFO]   Name: Nguyen Dupont
+2026-04-14 08:59:14,934 [INFO]   Target: Part1/Qiyana Zeta/
+2026-04-14 08:59:16,552 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 08:59:16,562 [INFO] Cloudflare captcha is solved
+2026-04-14 08:59:20,424 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 08:59:21,547 [INFO]   [Step 1] Price set to 0
+2026-04-14 08:59:22,837 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 08:59:23,791 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 08:59:27,455 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 08:59:28,222 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 08:59:31,014 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 08:59:33,403 [INFO]   [Step 4] Email filled
+2026-04-14 08:59:35,398 [INFO]   [Step 4] Name filled: Nguyen Dupont
+2026-04-14 08:59:37,089 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 08:59:38,446 [INFO]   [Step 5] Checkout clicked
+2026-04-14 08:59:47,939 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=5fc60a6f-9302-463a-b521-7a5ce432bf1b&mode=g
+2026-04-14 08:59:47,939 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 08:59:48,046 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:00:04,508 [INFO]   ✅ Downloaded: Qiyana Zeta.fantome (15.54 MB)
+2026-04-14 09:00:05,091 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=5fc60a6f-9302-463a-b521-7a5ce432bf1b&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:00:05,909 [INFO]   📊 Batch size: 131.48 MB / 999 MB
+2026-04-14 09:00:05,910 [INFO]   ✅ Qiyana Zeta completed!
+2026-04-14 09:00:05,910 [INFO]   ⏳ Waiting 17.8s...
+2026-04-14 09:00:23,680 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:00:23,680 [INFO] [10/109] Processing: Fiora Sagiri
+2026-04-14 09:00:23,680 [INFO]   📦 Placing in Part1 (9/990 mods)
+2026-04-14 09:00:23,680 [INFO]   URL: https://ko-fi.com/s/6a3376af3e
+2026-04-14 09:00:23,680 [INFO]   Name: Friedrich Lefevre
+2026-04-14 09:00:23,680 [INFO]   Target: Part1/Fiora Sagiri/
+2026-04-14 09:00:25,015 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:00:25,025 [INFO] Cloudflare captcha is solved
+2026-04-14 09:00:28,506 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:00:29,646 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:00:30,910 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:00:31,721 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:00:35,700 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:00:36,309 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:00:38,898 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:00:42,546 [INFO]   [Step 4] Email filled
+2026-04-14 09:00:44,546 [INFO]   [Step 4] Name filled: Friedrich Lefevre
+2026-04-14 09:00:45,719 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:00:47,192 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:00:58,549 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=3894af2c-493c-403d-ab00-dbc19bb8cfb1&mode=g
+2026-04-14 09:00:58,549 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:00:58,641 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:01:10,503 [INFO]   ✅ Downloaded: Fiora Sagiri.fantome (7.50 MB)
+2026-04-14 09:01:10,974 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=3894af2c-493c-403d-ab00-dbc19bb8cfb1&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:01:11,404 [INFO]   📊 Batch size: 138.98 MB / 999 MB
+2026-04-14 09:01:11,405 [INFO]   ✅ Fiora Sagiri completed!
+2026-04-14 09:01:11,405 [INFO]   ☕ Cooloff: 40.6s
+2026-04-14 09:01:51,965 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:01:51,965 [INFO] [11/109] Processing: Sett Female Titan
+2026-04-14 09:01:51,965 [INFO]   📦 Placing in Part1 (10/990 mods)
+2026-04-14 09:01:51,965 [INFO]   URL: https://ko-fi.com/s/18592c359d
+2026-04-14 09:01:51,965 [INFO]   Name: Lucia Weber
+2026-04-14 09:01:51,965 [INFO]   Target: Part1/Sett Female Titan/
+2026-04-14 09:01:53,364 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:01:53,372 [INFO] Cloudflare captcha is solved
+2026-04-14 09:01:56,505 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:01:57,419 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:01:58,502 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:01:59,564 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:02:03,037 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:02:03,959 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:02:06,119 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:02:09,089 [INFO]   [Step 4] Email filled
+2026-04-14 09:02:11,304 [INFO]   [Step 4] Name filled: Lucia Weber
+2026-04-14 09:02:13,038 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:02:14,720 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:02:24,767 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=cf3e6903-bed2-4225-b473-adef68ad4789&mode=g
+2026-04-14 09:02:24,767 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:02:24,845 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:02:39,609 [INFO]   ✅ Downloaded: Sett Female Titan.fantome (10.66 MB)
+2026-04-14 09:02:40,352 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=cf3e6903-bed2-4225-b473-adef68ad4789&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:02:40,975 [INFO]   📊 Batch size: 149.64 MB / 999 MB
+2026-04-14 09:02:40,976 [INFO]   ✅ Sett Female Titan completed!
+2026-04-14 09:02:40,976 [INFO]   ⏳ Waiting 11.5s...
+2026-04-14 09:02:52,439 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:02:52,439 [INFO] [12/109] Processing: Zaahen War Hammer Titan
+2026-04-14 09:02:52,439 [INFO]   📦 Placing in Part1 (11/990 mods)
+2026-04-14 09:02:52,439 [INFO]   URL: https://ko-fi.com/s/d422639a2d
+2026-04-14 09:02:52,439 [INFO]   Name: William Aquino
+2026-04-14 09:02:52,439 [INFO]   Target: Part1/Zaahen War Hammer Titan/
+2026-04-14 09:02:53,758 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:02:53,768 [INFO] Cloudflare captcha is solved
+2026-04-14 09:02:56,478 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:02:57,356 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:02:58,582 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:02:59,500 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:03:01,614 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:03:02,435 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:03:06,126 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:03:09,150 [INFO]   [Step 4] Email filled
+2026-04-14 09:03:11,490 [INFO]   [Step 4] Name filled: William Aquino
+2026-04-14 09:03:13,210 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:03:15,271 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:03:23,059 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=b66a4e4b-eccb-4f21-bb95-8d5ed80d7b7d&mode=g
+2026-04-14 09:03:23,059 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:03:23,149 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:03:35,548 [INFO]   ✅ Downloaded: Zaahen War Hammer Titan.fantome (12.28 MB)
+2026-04-14 09:03:35,917 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=b66a4e4b-eccb-4f21-bb95-8d5ed80d7b7d&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:03:36,330 [INFO]   📊 Batch size: 161.92 MB / 999 MB
+2026-04-14 09:03:36,331 [INFO]   ✅ Zaahen War Hammer Titan completed!
+2026-04-14 09:03:36,331 [INFO]   ⏳ Waiting 13.2s...
+2026-04-14 09:03:49,578 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:03:49,578 [INFO] [13/109] Processing: Lucian Onyakopon
+2026-04-14 09:03:49,578 [INFO]   📦 Placing in Part1 (12/990 mods)
+2026-04-14 09:03:49,578 [INFO]   URL: https://ko-fi.com/s/e74f1229b2
+2026-04-14 09:03:49,578 [INFO]   Name: Lucia Meyer
+2026-04-14 09:03:49,578 [INFO]   Target: Part1/Lucian Onyakopon/
+2026-04-14 09:03:50,883 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:03:50,893 [INFO] Cloudflare captcha is solved
+2026-04-14 09:03:54,170 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:03:55,040 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:03:56,116 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:03:57,351 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:04:00,366 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:04:01,355 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:04:03,907 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:04:06,375 [INFO]   [Step 4] Email filled
+2026-04-14 09:04:08,463 [INFO]   [Step 4] Name filled: Lucia Meyer
+2026-04-14 09:04:09,554 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:04:10,984 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:04:18,595 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=4572fd94-3859-4945-9b98-52a2f5d183e9&mode=g
+2026-04-14 09:04:18,595 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:04:18,687 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:04:31,837 [INFO]   ✅ Downloaded: Lucian Onyakopon.fantome (8.20 MB)
+2026-04-14 09:04:32,266 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=4572fd94-3859-4945-9b98-52a2f5d183e9&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:04:32,698 [INFO]   📊 Batch size: 170.13 MB / 999 MB
+2026-04-14 09:04:32,699 [INFO]   ✅ Lucian Onyakopon completed!
+2026-04-14 09:04:32,699 [INFO]   ⏳ Waiting 18.5s...
+2026-04-14 09:04:51,197 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:04:51,197 [INFO] [14/109] Processing: Taliyah Setsuna
+2026-04-14 09:04:51,197 [INFO]   📦 Placing in Part1 (13/990 mods)
+2026-04-14 09:04:51,197 [INFO]   URL: https://ko-fi.com/s/03fa08b931
+2026-04-14 09:04:51,197 [INFO]   Name: Antoine Meyer
+2026-04-14 09:04:51,197 [INFO]   Target: Part1/Taliyah Setsuna/
+2026-04-14 09:04:52,535 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:04:52,543 [INFO] Cloudflare captcha is solved
+2026-04-14 09:04:54,627 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:04:55,717 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:04:57,012 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:04:57,674 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:05:00,452 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:05:01,124 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:05:04,389 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:05:08,405 [INFO]   [Step 4] Email filled
+2026-04-14 09:05:10,335 [INFO]   [Step 4] Name filled: Antoine Meyer
+2026-04-14 09:05:11,916 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:05:15,068 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:05:21,963 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=a80b049d-ae47-4843-bf33-9a3ef8eebf02&mode=g
+2026-04-14 09:05:21,963 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:05:22,056 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:05:44,270 [INFO]   ✅ Downloaded: Taliyah Setsuna.fantome (24.44 MB)
+2026-04-14 09:05:44,853 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=a80b049d-ae47-4843-bf33-9a3ef8eebf02&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:05:45,359 [INFO]   📊 Batch size: 194.57 MB / 999 MB
+2026-04-14 09:05:45,359 [INFO]   ✅ Taliyah Setsuna completed!
+2026-04-14 09:05:45,359 [INFO]   ⏳ Waiting 9.9s...
+2026-04-14 09:05:55,305 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:05:55,305 [INFO] [15/109] Processing: Karma Ruka
+2026-04-14 09:05:55,305 [INFO]   📦 Placing in Part1 (14/990 mods)
+2026-04-14 09:05:55,305 [INFO]   URL: https://ko-fi.com/s/0e72d282fa
+2026-04-14 09:05:55,305 [INFO]   Name: William Mueller
+2026-04-14 09:05:55,305 [INFO]   Target: Part1/Karma Ruka/
+2026-04-14 09:05:56,620 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:05:56,630 [INFO] Cloudflare captcha is solved
+2026-04-14 09:05:59,544 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:06:00,261 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:06:01,173 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:06:01,919 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:06:04,453 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:06:05,460 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:06:08,568 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:06:11,607 [INFO]   [Step 4] Email filled
+2026-04-14 09:06:13,713 [INFO]   [Step 4] Name filled: William Mueller
+2026-04-14 09:06:15,375 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:06:16,593 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:06:25,076 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=bafb2b63-6cee-4fa9-8896-f0dd2826b18a&mode=g
+2026-04-14 09:06:25,076 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:06:25,152 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:06:35,873 [INFO]   ✅ Downloaded: Karma Ruka.fantome (8.33 MB)
+2026-04-14 09:06:36,399 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=bafb2b63-6cee-4fa9-8896-f0dd2826b18a&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:06:36,853 [INFO]   📊 Batch size: 202.90 MB / 999 MB
+2026-04-14 09:06:36,854 [INFO]   ✅ Karma Ruka completed!
+2026-04-14 09:06:36,854 [INFO]   ☕ Cooloff: 45.2s
+2026-04-14 09:07:22,012 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:07:22,012 [INFO] [16/109] Processing: Viktor Yuki
+2026-04-14 09:07:22,012 [INFO]   📦 Placing in Part1 (15/990 mods)
+2026-04-14 09:07:22,012 [INFO]   URL: https://ko-fi.com/s/7af16c910a
+2026-04-14 09:07:22,012 [INFO]   Name: Pham Do
+2026-04-14 09:07:22,012 [INFO]   Target: Part1/Viktor Yuki/
+2026-04-14 09:07:23,350 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:07:23,358 [INFO] Cloudflare captcha is solved
+2026-04-14 09:07:25,692 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:07:26,612 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:07:27,680 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:07:28,475 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:07:31,254 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:07:32,039 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:07:35,510 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:07:39,403 [INFO]   [Step 4] Email filled
+2026-04-14 09:07:40,827 [INFO]   [Step 4] Name filled: Pham Do
+2026-04-14 09:07:41,854 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:07:43,547 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:07:52,797 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=6ba61069-1475-4568-9358-b5a283758b14&mode=g
+2026-04-14 09:07:52,797 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:07:52,872 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:08:22,613 [INFO]   ✅ Downloaded: Viktor Yuki.fantome (41.58 MB)
+2026-04-14 09:08:23,156 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=6ba61069-1475-4568-9358-b5a283758b14&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:08:23,592 [INFO]   📊 Batch size: 244.49 MB / 999 MB
+2026-04-14 09:08:23,594 [INFO]   ✅ Viktor Yuki completed!
+2026-04-14 09:08:23,594 [INFO]   ⏳ Waiting 18.8s...
+2026-04-14 09:08:42,374 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:08:42,374 [INFO] [17/109] Processing: Soraka Cecilia
+2026-04-14 09:08:42,374 [INFO]   📦 Placing in Part1 (16/990 mods)
+2026-04-14 09:08:42,374 [INFO]   URL: https://ko-fi.com/s/5734c6e628
+2026-04-14 09:08:42,374 [INFO]   Name: Mila Laurent
+2026-04-14 09:08:42,374 [INFO]   Target: Part1/Soraka Cecilia/
+2026-04-14 09:08:43,711 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:08:43,719 [INFO] Cloudflare captcha is solved
+2026-04-14 09:08:46,518 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:08:47,466 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:08:48,542 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:08:49,123 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:08:51,997 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:08:52,843 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:08:55,116 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:08:58,072 [INFO]   [Step 4] Email filled
+2026-04-14 09:09:00,077 [INFO]   [Step 4] Name filled: Mila Laurent
+2026-04-14 09:09:02,069 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:09:03,826 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:09:13,483 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=d8815771-d1b7-44f1-a3ba-9fd47d5b093e&mode=g
+2026-04-14 09:09:13,483 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:09:13,596 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:09:23,312 [INFO]   ✅ Downloaded: Soraka Cecilia.fantome (5.52 MB)
+2026-04-14 09:09:23,781 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=d8815771-d1b7-44f1-a3ba-9fd47d5b093e&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:09:24,382 [INFO]   📊 Batch size: 250.01 MB / 999 MB
+2026-04-14 09:09:24,384 [INFO]   ✅ Soraka Cecilia completed!
+2026-04-14 09:09:24,384 [INFO]   ⏳ Waiting 20.0s...
+2026-04-14 09:09:44,341 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:09:44,341 [INFO] [18/109] Processing: Viego Shigaraki
+2026-04-14 09:09:44,341 [INFO]   📦 Placing in Part1 (17/990 mods)
+2026-04-14 09:09:44,341 [INFO]   URL: https://ko-fi.com/s/340b1ace12
+2026-04-14 09:09:44,341 [INFO]   Name: Dewi Vu
+2026-04-14 09:09:44,341 [INFO]   Target: Part1/Viego Shigaraki/
+2026-04-14 09:09:45,620 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:09:45,628 [INFO] Cloudflare captcha is solved
+2026-04-14 09:09:48,859 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:09:49,899 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:09:51,172 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:09:51,801 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:09:55,014 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:09:56,076 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:09:58,167 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:10:00,543 [INFO]   [Step 4] Email filled
+2026-04-14 09:10:01,952 [INFO]   [Step 4] Name filled: Dewi Vu
+2026-04-14 09:10:03,425 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:10:04,582 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:10:14,857 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=d14ae212-ec74-4103-8f8a-1bdf19b6acf7&mode=g
+2026-04-14 09:10:14,857 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:10:14,932 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:10:28,613 [INFO]   ✅ Downloaded: Viego Shigaraki.fantome (11.50 MB)
+2026-04-14 09:10:28,686 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=d14ae212-ec74-4103-8f8a-1bdf19b6acf7&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:10:29,512 [INFO]   📊 Batch size: 261.51 MB / 999 MB
+2026-04-14 09:10:29,512 [INFO]   ✅ Viego Shigaraki completed!
+2026-04-14 09:10:29,512 [INFO]   ⏳ Waiting 11.6s...
+2026-04-14 09:10:41,091 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:10:41,091 [INFO] [19/109] Processing: Samira Genya
+2026-04-14 09:10:41,091 [INFO]   📦 Placing in Part1 (18/990 mods)
+2026-04-14 09:10:41,091 [INFO]   URL: https://ko-fi.com/s/5936d135f3
+2026-04-14 09:10:41,091 [INFO]   Name: Nattapong Bianchi
+2026-04-14 09:10:41,091 [INFO]   Target: Part1/Samira Genya/
+2026-04-14 09:10:42,426 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:10:42,434 [INFO] Cloudflare captcha is solved
+2026-04-14 09:10:46,098 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:10:47,048 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:10:48,361 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:10:49,483 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:10:51,681 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:10:52,452 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:10:55,781 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:10:59,167 [INFO]   [Step 4] Email filled
+2026-04-14 09:11:01,653 [INFO]   [Step 4] Name filled: Nattapong Bianchi
+2026-04-14 09:11:03,110 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:11:05,394 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:11:13,874 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=2e451944-16b1-4971-b963-c5429500290e&mode=g
+2026-04-14 09:11:13,874 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:11:13,954 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:11:34,840 [INFO]   ✅ Downloaded: Samira Genya.fantome (20.70 MB)
+2026-04-14 09:11:35,488 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=2e451944-16b1-4971-b963-c5429500290e&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:11:35,976 [INFO]   📊 Batch size: 282.20 MB / 999 MB
+2026-04-14 09:11:35,977 [INFO]   ✅ Samira Genya completed!
+2026-04-14 09:11:35,977 [INFO]   ⏳ Waiting 15.4s...
+2026-04-14 09:11:51,345 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:11:51,345 [INFO] [20/109] Processing: Irelia Shadow
+2026-04-14 09:11:51,345 [INFO]   📦 Placing in Part1 (19/990 mods)
+2026-04-14 09:11:51,345 [INFO]   URL: https://ko-fi.com/s/a1c006539c
+2026-04-14 09:11:51,345 [INFO]   Name: Miguel Weber
+2026-04-14 09:11:51,345 [INFO]   Target: Part1/Irelia Shadow/
+2026-04-14 09:11:52,677 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:11:52,685 [INFO] Cloudflare captcha is solved
+2026-04-14 09:11:55,347 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:11:56,332 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:11:57,513 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:11:58,445 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:12:02,140 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:12:02,781 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:12:06,064 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:12:09,650 [INFO]   [Step 4] Email filled
+2026-04-14 09:12:11,917 [INFO]   [Step 4] Name filled: Miguel Weber
+2026-04-14 09:12:12,939 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:12:14,667 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:12:22,521 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=0f048b5b-4f9c-400f-ba5c-f03601f19f98&mode=g
+2026-04-14 09:12:22,522 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:12:22,611 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:12:40,902 [INFO]   ✅ Downloaded: Irelia Shadow.fantome (16.60 MB)
+2026-04-14 09:12:41,409 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=0f048b5b-4f9c-400f-ba5c-f03601f19f98&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:12:41,852 [INFO]   📊 Batch size: 298.80 MB / 999 MB
+2026-04-14 09:12:41,878 [INFO]   ✅ Irelia Shadow completed!
+2026-04-14 09:12:41,878 [INFO]   ☕ Cooloff: 40.1s
+2026-04-14 09:13:21,993 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:13:21,993 [INFO] [21/109] Processing: Caitlynn Sento
+2026-04-14 09:13:21,993 [INFO]   📦 Placing in Part1 (20/990 mods)
+2026-04-14 09:13:21,993 [INFO]   URL: https://ko-fi.com/s/e84386d976
+2026-04-14 09:13:21,993 [INFO]   Name: Rizky Setiawan
+2026-04-14 09:13:21,993 [INFO]   Target: Part1/Caitlynn Sento/
+2026-04-14 09:13:23,362 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:13:23,370 [INFO] Cloudflare captcha is solved
+2026-04-14 09:13:27,207 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:13:28,153 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:13:29,107 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:13:30,274 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:13:32,712 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:13:33,385 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:13:36,400 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:13:39,312 [INFO]   [Step 4] Email filled
+2026-04-14 09:13:41,340 [INFO]   [Step 4] Name filled: Rizky Setiawan
+2026-04-14 09:13:42,769 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:13:44,030 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:13:50,878 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=c73196f0-31e2-401f-9494-c4f502f8746c&mode=g
+2026-04-14 09:13:50,878 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:13:50,970 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:14:13,125 [INFO]   ✅ Downloaded: Caitlynn Sento.fantome (19.22 MB)
+2026-04-14 09:14:13,614 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=c73196f0-31e2-401f-9494-c4f502f8746c&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:14:13,905 [INFO]   📊 Batch size: 318.03 MB / 999 MB
+2026-04-14 09:14:13,922 [INFO]   ✅ Caitlynn Sento completed!
+2026-04-14 09:14:13,928 [INFO]   ⏳ Waiting 11.9s...
+2026-04-14 09:14:25,847 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:14:25,847 [INFO] [22/109] Processing: Syndra Ochaco
+2026-04-14 09:14:25,847 [INFO]   📦 Placing in Part1 (21/990 mods)
+2026-04-14 09:14:25,847 [INFO]   URL: https://ko-fi.com/s/6b8034a8d2
+2026-04-14 09:14:25,847 [INFO]   Name: Grace Weber
+2026-04-14 09:14:25,847 [INFO]   Target: Part1/Syndra Ochaco/
+2026-04-14 09:14:27,177 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:14:27,185 [INFO] Cloudflare captcha is solved
+2026-04-14 09:14:29,620 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:14:30,600 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:14:32,048 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:14:33,020 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:14:36,305 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:14:37,168 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:14:39,814 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:14:42,114 [INFO]   [Step 4] Email filled
+2026-04-14 09:14:44,171 [INFO]   [Step 4] Name filled: Grace Weber
+2026-04-14 09:14:46,036 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:14:47,835 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:14:55,140 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=e955949c-d24d-4f95-932c-42aba085edb0&mode=g
+2026-04-14 09:14:55,140 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:14:55,215 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:15:09,891 [INFO]   ✅ Downloaded: Syndra Ochaco.fantome (12.96 MB)
+2026-04-14 09:15:10,415 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=e955949c-d24d-4f95-932c-42aba085edb0&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:15:10,902 [INFO]   📊 Batch size: 330.99 MB / 999 MB
+2026-04-14 09:15:10,903 [INFO]   ✅ Syndra Ochaco completed!
+2026-04-14 09:15:10,903 [INFO]   ⏳ Waiting 16.4s...
+2026-04-14 09:15:27,289 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:15:27,289 [INFO] [23/109] Processing: Yone Mikasa
+2026-04-14 09:15:27,289 [INFO]   📦 Placing in Part1 (22/990 mods)
+2026-04-14 09:15:27,289 [INFO]   URL: https://ko-fi.com/s/2c1a1bc27e
+2026-04-14 09:15:27,289 [INFO]   Name: Pravit Do
+2026-04-14 09:15:27,289 [INFO]   Target: Part1/Yone Mikasa/
+2026-04-14 09:15:28,745 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:15:28,753 [INFO] Cloudflare captcha is solved
+2026-04-14 09:15:31,962 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:15:33,111 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:15:34,043 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:15:35,106 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:15:38,709 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:15:39,460 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:15:41,918 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:15:44,297 [INFO]   [Step 4] Email filled
+2026-04-14 09:15:45,969 [INFO]   [Step 4] Name filled: Pravit Do
+2026-04-14 09:15:47,505 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:15:49,089 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:15:57,483 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=25741c92-824f-44ad-9884-d4d35661a3d4&mode=g
+2026-04-14 09:15:57,483 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:15:57,557 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:16:15,707 [INFO]   ✅ Downloaded: Yone Mikasa.fantome (11.63 MB)
+2026-04-14 09:16:16,183 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=25741c92-824f-44ad-9884-d4d35661a3d4&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:16:16,716 [INFO]   📊 Batch size: 342.62 MB / 999 MB
+2026-04-14 09:16:16,716 [INFO]   ✅ Yone Mikasa completed!
+2026-04-14 09:16:16,716 [INFO]   ⏳ Waiting 14.9s...
+2026-04-14 09:16:31,591 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:16:31,591 [INFO] [24/109] Processing: Aurora Marin
+2026-04-14 09:16:31,591 [INFO]   📦 Placing in Part1 (23/990 mods)
+2026-04-14 09:16:31,591 [INFO]   URL: https://ko-fi.com/s/984e63f61e
+2026-04-14 09:16:31,591 [INFO]   Name: Francesca Mueller
+2026-04-14 09:16:31,591 [INFO]   Target: Part1/Aurora Marin/
+2026-04-14 09:16:32,879 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:16:32,885 [INFO] Cloudflare captcha is solved
+2026-04-14 09:16:36,578 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:16:37,527 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:16:39,012 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:16:40,211 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:16:44,047 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:16:45,100 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:16:47,971 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:16:50,247 [INFO]   [Step 4] Email filled
+2026-04-14 09:16:52,886 [INFO]   [Step 4] Name filled: Francesca Mueller
+2026-04-14 09:16:54,422 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:16:56,029 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:17:06,353 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=b7ca457a-24dd-42af-879b-9884b051fc9b&mode=g
+2026-04-14 09:17:06,353 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:17:06,434 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:17:24,171 [INFO]   ✅ Downloaded: Aurora Marin.fantome (12.57 MB)
+2026-04-14 09:17:24,647 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=b7ca457a-24dd-42af-879b-9884b051fc9b&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:17:25,129 [INFO]   📊 Batch size: 355.19 MB / 999 MB
+2026-04-14 09:17:25,130 [INFO]   ✅ Aurora Marin completed!
+2026-04-14 09:17:25,130 [INFO]   ⏳ Waiting 10.7s...
+2026-04-14 09:17:35,824 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:17:35,824 [INFO] [25/109] Processing: Shaco Zora
+2026-04-14 09:17:35,824 [INFO]   📦 Placing in Part1 (24/990 mods)
+2026-04-14 09:17:35,824 [INFO]   URL: https://ko-fi.com/s/950a422e6a
+2026-04-14 09:17:35,824 [INFO]   Name: Wati Hidayat
+2026-04-14 09:17:35,824 [INFO]   Target: Part1/Shaco Zora/
+2026-04-14 09:17:37,249 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:17:37,257 [INFO] Cloudflare captcha is solved
+2026-04-14 09:17:39,981 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:17:40,914 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:17:41,722 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:17:42,634 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:17:45,974 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:17:46,900 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:17:49,026 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:17:52,883 [INFO]   [Step 4] Email filled
+2026-04-14 09:17:55,081 [INFO]   [Step 4] Name filled: Wati Hidayat
+2026-04-14 09:17:56,549 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:17:57,994 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:18:06,134 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=424aedc4-a1f5-470a-9ca9-dd736324eee8&mode=g
+2026-04-14 09:18:06,134 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:18:06,227 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:18:17,196 [INFO]   ✅ Downloaded: Shaco Zora.fantome (7.09 MB)
+2026-04-14 09:18:17,685 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=424aedc4-a1f5-470a-9ca9-dd736324eee8&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:18:18,188 [INFO]   📊 Batch size: 362.28 MB / 999 MB
+2026-04-14 09:18:18,188 [INFO]   ✅ Shaco Zora completed!
+2026-04-14 09:18:18,188 [INFO]   ☕ Cooloff: 41.3s
+2026-04-14 09:18:59,470 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:18:59,470 [INFO] [26/109] Processing: Katarina Yor
+2026-04-14 09:18:59,470 [INFO]   📦 Placing in Part1 (25/990 mods)
+2026-04-14 09:18:59,470 [INFO]   URL: https://ko-fi.com/s/9f7d9af96a
+2026-04-14 09:18:59,470 [INFO]   Name: Thao Reyes
+2026-04-14 09:18:59,470 [INFO]   Target: Part1/Katarina Yor/
+2026-04-14 09:19:00,790 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:19:00,798 [INFO] Cloudflare captcha is solved
+2026-04-14 09:19:02,901 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:19:04,133 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:19:05,231 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:19:06,122 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:19:08,784 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:19:09,645 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:19:11,813 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:19:14,933 [INFO]   [Step 4] Email filled
+2026-04-14 09:19:17,051 [INFO]   [Step 4] Name filled: Thao Reyes
+2026-04-14 09:19:18,901 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:19:20,000 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:19:29,478 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=4e24241c-211c-4a21-aa93-ff5dc25457d3&mode=g
+2026-04-14 09:19:29,478 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:19:29,562 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:19:46,234 [INFO]   ✅ Downloaded: Katarina Yor.fantome (6.60 MB)
+2026-04-14 09:19:46,449 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=4e24241c-211c-4a21-aa93-ff5dc25457d3&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:19:47,013 [INFO]   📊 Batch size: 368.88 MB / 999 MB
+2026-04-14 09:19:47,013 [INFO]   ✅ Katarina Yor completed!
+2026-04-14 09:19:47,013 [INFO]   ⏳ Waiting 18.6s...
+2026-04-14 09:20:05,583 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:20:05,583 [INFO] [27/109] Processing: Lux Minami
+2026-04-14 09:20:05,584 [INFO]   📦 Placing in Part1 (26/990 mods)
+2026-04-14 09:20:05,584 [INFO]   URL: https://ko-fi.com/s/848656b255
+2026-04-14 09:20:05,584 [INFO]   Name: Rizky Pham
+2026-04-14 09:20:05,584 [INFO]   Target: Part1/Lux Minami/
+2026-04-14 09:20:07,053 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:20:07,063 [INFO] Cloudflare captcha is solved
+2026-04-14 09:20:09,473 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:20:10,534 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:20:11,579 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:20:12,812 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:20:16,629 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:20:17,428 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:20:20,490 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:20:24,192 [INFO]   [Step 4] Email filled
+2026-04-14 09:20:26,076 [INFO]   [Step 4] Name filled: Rizky Pham
+2026-04-14 09:20:27,675 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:20:30,979 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:20:40,045 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=b3bea28e-f21d-46ae-a242-f965c42a07dc&mode=g
+2026-04-14 09:20:40,045 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:20:40,134 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:20:52,806 [INFO]   ✅ Downloaded: Lux Minami.fantome (8.55 MB)
+2026-04-14 09:20:53,215 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=b3bea28e-f21d-46ae-a242-f965c42a07dc&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:20:53,846 [INFO]   📊 Batch size: 377.43 MB / 999 MB
+2026-04-14 09:20:53,846 [INFO]   ✅ Lux Minami completed!
+2026-04-14 09:20:53,846 [INFO]   ⏳ Waiting 8.9s...
+2026-04-14 09:21:02,774 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:21:02,774 [INFO] [28/109] Processing: Karthus Ainz
+2026-04-14 09:21:02,774 [INFO]   📦 Placing in Part1 (27/990 mods)
+2026-04-14 09:21:02,774 [INFO]   URL: https://ko-fi.com/s/0c2e891b52
+2026-04-14 09:21:02,774 [INFO]   Name: Pierre Brown
+2026-04-14 09:21:02,774 [INFO]   Target: Part1/Karthus Ainz/
+2026-04-14 09:21:04,048 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:21:04,058 [INFO] Cloudflare captcha is solved
+2026-04-14 09:21:06,769 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:21:07,918 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:21:09,168 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:21:10,045 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:21:12,431 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:21:13,152 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:21:15,866 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:21:18,193 [INFO]   [Step 4] Email filled
+2026-04-14 09:21:20,233 [INFO]   [Step 4] Name filled: Pierre Brown
+2026-04-14 09:21:21,519 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:21:23,118 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:21:32,979 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=5d8d66ac-8997-4f11-b1c3-4e816d27a62a&mode=g
+2026-04-14 09:21:32,979 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:21:33,073 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:21:55,978 [INFO]   ✅ Downloaded: Karthus Ainz.fantome (17.05 MB)
+2026-04-14 09:21:57,733 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=5d8d66ac-8997-4f11-b1c3-4e816d27a62a&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:21:58,180 [INFO]   📊 Batch size: 394.49 MB / 999 MB
+2026-04-14 09:21:58,180 [INFO]   ✅ Karthus Ainz completed!
+2026-04-14 09:21:58,180 [INFO]   ⏳ Waiting 16.9s...
+2026-04-14 09:22:15,131 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:22:15,131 [INFO] [29/109] Processing: Viego Anos
+2026-04-14 09:22:15,131 [INFO]   📦 Placing in Part1 (28/990 mods)
+2026-04-14 09:22:15,131 [INFO]   URL: https://ko-fi.com/s/b4708bbc80
+2026-04-14 09:22:15,131 [INFO]   Name: Jean Vu
+2026-04-14 09:22:15,131 [INFO]   Target: Part1/Viego Anos/
+2026-04-14 09:22:16,450 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:22:16,458 [INFO] Cloudflare captcha is solved
+2026-04-14 09:22:19,549 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:22:20,532 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:22:21,655 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:22:22,667 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:22:26,476 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:22:27,353 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:22:30,022 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:22:32,951 [INFO]   [Step 4] Email filled
+2026-04-14 09:22:34,422 [INFO]   [Step 4] Name filled: Jean Vu
+2026-04-14 09:22:35,705 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:22:36,796 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:22:50,038 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=12f698a2-e3d2-43f7-8caf-51a611bc76c2&mode=g
+2026-04-14 09:22:50,039 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:22:50,125 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:23:07,052 [INFO]   ✅ Downloaded: Viego Anos.fantome (14.17 MB)
+2026-04-14 09:23:08,769 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=12f698a2-e3d2-43f7-8caf-51a611bc76c2&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:23:09,254 [INFO]   📊 Batch size: 408.66 MB / 999 MB
+2026-04-14 09:23:09,256 [INFO]   ✅ Viego Anos completed!
+2026-04-14 09:23:09,256 [INFO]   ⏳ Waiting 18.9s...
+2026-04-14 09:23:28,192 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:23:28,192 [INFO] [30/109] Processing: Zaahen Shadow
+2026-04-14 09:23:28,192 [INFO]   📦 Placing in Part1 (29/990 mods)
+2026-04-14 09:23:28,192 [INFO]   URL: https://ko-fi.com/s/b4077e6324
+2026-04-14 09:23:28,192 [INFO]   Name: Grace Jones
+2026-04-14 09:23:28,192 [INFO]   Target: Part1/Zaahen Shadow/
+2026-04-14 09:23:29,482 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:23:29,492 [INFO] Cloudflare captcha is solved
+2026-04-14 09:23:31,838 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:23:32,867 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:23:33,959 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:23:34,595 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:23:37,683 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:23:38,903 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:23:41,235 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:23:44,540 [INFO]   [Step 4] Email filled
+2026-04-14 09:23:46,899 [INFO]   [Step 4] Name filled: Grace Jones
+2026-04-14 09:23:48,529 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:23:50,083 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:23:56,861 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=ca71b2e6-913f-45d8-8265-06062efe2b11&mode=g
+2026-04-14 09:23:56,861 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:23:56,932 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:24:09,530 [INFO]   ✅ Downloaded: Zaahen Shadow.fantome (14.58 MB)
+2026-04-14 09:24:09,753 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=ca71b2e6-913f-45d8-8265-06062efe2b11&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:24:10,221 [INFO]   📊 Batch size: 423.24 MB / 999 MB
+2026-04-14 09:24:10,239 [INFO]   ✅ Zaahen Shadow completed!
+2026-04-14 09:24:10,239 [INFO]   ☕ Cooloff: 44.4s
+2026-04-14 09:24:54,674 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:24:54,674 [INFO] [31/109] Processing: Mel Kitagawa
+2026-04-14 09:24:54,674 [INFO]   📦 Placing in Part1 (30/990 mods)
+2026-04-14 09:24:54,674 [INFO]   URL: https://ko-fi.com/s/d9afb2e4a1
+2026-04-14 09:24:54,674 [INFO]   Name: Carlo Johnson
+2026-04-14 09:24:54,674 [INFO]   Target: Part1/Mel Kitagawa/
+2026-04-14 09:24:55,973 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:24:55,981 [INFO] Cloudflare captcha is solved
+2026-04-14 09:24:58,255 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:24:59,292 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:25:00,654 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:25:01,485 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:25:05,182 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:25:05,773 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:25:09,228 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:25:12,913 [INFO]   [Step 4] Email filled
+2026-04-14 09:25:15,111 [INFO]   [Step 4] Name filled: Carlo Johnson
+2026-04-14 09:25:16,189 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:25:17,283 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:25:25,178 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=7d9a112f-b0b4-4d37-83d3-864e94079d58&mode=g
+2026-04-14 09:25:25,178 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:25:25,251 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:25:37,670 [INFO]   ✅ Downloaded: Mel Kitagawa.fantome (14.70 MB)
+2026-04-14 09:25:38,325 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=7d9a112f-b0b4-4d37-83d3-864e94079d58&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:25:38,676 [INFO]   📊 Batch size: 437.94 MB / 999 MB
+2026-04-14 09:25:38,678 [INFO]   ✅ Mel Kitagawa completed!
+2026-04-14 09:25:38,678 [INFO]   ⏳ Waiting 11.9s...
+2026-04-14 09:25:50,632 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:25:50,632 [INFO] [32/109] Processing: Kaisa Yuki
+2026-04-14 09:25:50,632 [INFO]   📦 Placing in Part1 (31/990 mods)
+2026-04-14 09:25:50,632 [INFO]   URL: https://ko-fi.com/s/f0d45c3e34
+2026-04-14 09:25:50,632 [INFO]   Name: Wati Fischer
+2026-04-14 09:25:50,632 [INFO]   Target: Part1/Kaisa Yuki/
+2026-04-14 09:25:51,987 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:25:51,995 [INFO] Cloudflare captcha is solved
+2026-04-14 09:25:55,119 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:25:56,098 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:25:57,410 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:25:58,104 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:26:00,735 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:26:01,581 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:26:04,149 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:26:07,295 [INFO]   [Step 4] Email filled
+2026-04-14 09:26:09,335 [INFO]   [Step 4] Name filled: Wati Fischer
+2026-04-14 09:26:10,696 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:26:12,169 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:26:18,769 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=3f1c45aa-de64-4334-9230-ba9bc98eee9d&mode=g
+2026-04-14 09:26:18,769 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:26:18,843 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:26:31,558 [INFO]   ✅ Downloaded: Kaisa Yuki.fantome (16.99 MB)
+2026-04-14 09:26:31,911 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=3f1c45aa-de64-4334-9230-ba9bc98eee9d&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:26:32,357 [INFO]   📊 Batch size: 454.93 MB / 999 MB
+2026-04-14 09:26:32,357 [INFO]   ✅ Kaisa Yuki completed!
+2026-04-14 09:26:32,357 [INFO]   ⏳ Waiting 17.3s...
+2026-04-14 09:26:49,641 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:26:49,641 [INFO] [33/109] Processing: Yasuo Ikki
+2026-04-14 09:26:49,641 [INFO]   📦 Placing in Part1 (32/990 mods)
+2026-04-14 09:26:49,641 [INFO]   URL: https://ko-fi.com/s/da9d156403
+2026-04-14 09:26:49,641 [INFO]   Name: Minh Lefevre
+2026-04-14 09:26:49,641 [INFO]   Target: Part1/Yasuo Ikki/
+2026-04-14 09:26:50,962 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:26:50,971 [INFO] Cloudflare captcha is solved
+2026-04-14 09:26:53,886 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:26:55,045 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:26:56,122 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:26:56,697 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:26:59,782 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:27:00,723 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:27:03,831 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:27:07,896 [INFO]   [Step 4] Email filled
+2026-04-14 09:27:09,555 [INFO]   [Step 4] Name filled: Minh Lefevre
+2026-04-14 09:27:10,820 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:27:12,366 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:27:22,271 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=c2798b5c-8128-4af9-891f-c1bfd23458c9&mode=g
+2026-04-14 09:27:22,271 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:27:22,345 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:27:32,388 [INFO]   ✅ Downloaded: Yasuo Ikki.fantome (9.67 MB)
+2026-04-14 09:27:32,690 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=c2798b5c-8128-4af9-891f-c1bfd23458c9&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:27:32,988 [INFO]   📊 Batch size: 464.60 MB / 999 MB
+2026-04-14 09:27:33,001 [INFO]   ✅ Yasuo Ikki completed!
+2026-04-14 09:27:33,011 [INFO]   ⏳ Waiting 19.3s...
+2026-04-14 09:27:52,340 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:27:52,340 [INFO] [34/109] Processing: Ashe Beta
+2026-04-14 09:27:52,340 [INFO]   📦 Placing in Part1 (33/990 mods)
+2026-04-14 09:27:52,340 [INFO]   URL: https://ko-fi.com/s/1d4ee30c2b
+2026-04-14 09:27:52,340 [INFO]   Name: Rizky Colombo
+2026-04-14 09:27:52,340 [INFO]   Target: Part1/Ashe Beta/
+2026-04-14 09:27:53,611 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:27:53,619 [INFO] Cloudflare captcha is solved
+2026-04-14 09:27:57,593 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:27:58,824 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:27:59,982 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:28:00,848 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:28:03,841 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:28:04,875 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:28:07,207 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:28:09,341 [INFO]   [Step 4] Email filled
+2026-04-14 09:28:11,001 [INFO]   [Step 4] Name filled: Rizky Colombo
+2026-04-14 09:28:12,044 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:28:13,475 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:28:21,088 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=8fa9c413-d09a-4f2b-83b0-5a5651a6a6c1&mode=g
+2026-04-14 09:28:21,088 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:28:21,158 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:28:31,617 [INFO]   ✅ Downloaded: Ashe Beta.fantome (7.88 MB)
+2026-04-14 09:28:31,917 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=8fa9c413-d09a-4f2b-83b0-5a5651a6a6c1&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:28:32,531 [INFO]   📊 Batch size: 472.48 MB / 999 MB
+2026-04-14 09:28:32,531 [INFO]   ✅ Ashe Beta completed!
+2026-04-14 09:28:32,533 [INFO]   ⏳ Waiting 19.4s...
+2026-04-14 09:28:51,903 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:28:51,903 [INFO] [35/109] Processing: Syndra Fubuki
+2026-04-14 09:28:51,903 [INFO]   📦 Placing in Part1 (34/990 mods)
+2026-04-14 09:28:51,903 [INFO]   URL: https://ko-fi.com/s/d30ab0e68c
+2026-04-14 09:28:51,903 [INFO]   Name: Nattapong Weber
+2026-04-14 09:28:51,903 [INFO]   Target: Part1/Syndra Fubuki/
+2026-04-14 09:28:53,298 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:28:53,306 [INFO] Cloudflare captcha is solved
+2026-04-14 09:28:55,495 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:28:56,427 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:28:57,487 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:28:58,637 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:29:02,145 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:29:02,816 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:29:05,703 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:29:07,982 [INFO]   [Step 4] Email filled
+2026-04-14 09:29:10,624 [INFO]   [Step 4] Name filled: Nattapong Weber
+2026-04-14 09:29:11,996 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:29:13,274 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:29:21,152 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=7ce9de82-dee1-436b-880f-b7db0cab7daa&mode=g
+2026-04-14 09:29:21,152 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:29:21,225 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:29:33,281 [INFO]   ✅ Downloaded: Syndra Fubuki.fantome (11.50 MB)
+2026-04-14 09:29:33,570 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=7ce9de82-dee1-436b-880f-b7db0cab7daa&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:29:34,019 [INFO]   📊 Batch size: 483.98 MB / 999 MB
+2026-04-14 09:29:34,019 [INFO]   ✅ Syndra Fubuki completed!
+2026-04-14 09:29:34,019 [INFO]   ☕ Cooloff: 45.6s
+2026-04-14 09:30:19,652 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:30:19,652 [INFO] [36/109] Processing: Aurora Utaha
+2026-04-14 09:30:19,652 [INFO]   📦 Placing in Part1 (35/990 mods)
+2026-04-14 09:30:19,652 [INFO]   URL: https://ko-fi.com/s/aa0d7e1e6d
+2026-04-14 09:30:19,652 [INFO]   Name: Nattapong Prasetyo
+2026-04-14 09:30:19,652 [INFO]   Target: Part1/Aurora Utaha/
+2026-04-14 09:30:21,018 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:30:21,027 [INFO] Cloudflare captcha is solved
+2026-04-14 09:30:23,057 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:30:24,244 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:30:25,611 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:30:26,707 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:30:29,628 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:30:30,457 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:30:33,422 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:30:35,808 [INFO]   [Step 4] Email filled
+2026-04-14 09:30:38,480 [INFO]   [Step 4] Name filled: Nattapong Prasetyo
+2026-04-14 09:30:40,456 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:30:41,951 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:30:48,976 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=2910ba30-300b-426d-8845-ac7d9a3f9e8a&mode=g
+2026-04-14 09:30:48,976 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:30:49,050 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:31:00,100 [INFO]   ✅ Downloaded: Aurora Utaha.fantome (12.28 MB)
+2026-04-14 09:31:00,489 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=2910ba30-300b-426d-8845-ac7d9a3f9e8a&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:31:00,929 [INFO]   📊 Batch size: 496.27 MB / 999 MB
+2026-04-14 09:31:00,930 [INFO]   ✅ Aurora Utaha completed!
+2026-04-14 09:31:00,930 [INFO]   ⏳ Waiting 16.7s...
+2026-04-14 09:31:17,668 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:31:17,668 [INFO] [37/109] Processing: Fiora Rose
+2026-04-14 09:31:17,668 [INFO]   📦 Placing in Part1 (36/990 mods)
+2026-04-14 09:31:17,669 [INFO]   URL: https://ko-fi.com/s/f9420db58f
+2026-04-14 09:31:17,669 [INFO]   Name: Lukas Vu
+2026-04-14 09:31:17,669 [INFO]   Target: Part1/Fiora Rose/
+2026-04-14 09:31:18,915 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:31:18,921 [INFO] Cloudflare captcha is solved
+2026-04-14 09:31:21,908 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:31:22,938 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:31:24,326 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:31:25,221 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:31:27,409 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:31:28,225 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:31:31,571 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:31:34,514 [INFO]   [Step 4] Email filled
+2026-04-14 09:31:36,298 [INFO]   [Step 4] Name filled: Lukas Vu
+2026-04-14 09:31:37,515 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:31:39,029 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:31:45,085 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=68bfe85b-d3ea-41d1-a46f-0e06b16a6e6f&mode=g
+2026-04-14 09:31:45,085 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:31:45,158 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:31:53,559 [INFO]   ✅ Downloaded: Fiora Rose.fantome (7.52 MB)
+2026-04-14 09:31:53,851 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=68bfe85b-d3ea-41d1-a46f-0e06b16a6e6f&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:31:54,321 [INFO]   📊 Batch size: 503.78 MB / 999 MB
+2026-04-14 09:31:54,321 [INFO]   ✅ Fiora Rose completed!
+2026-04-14 09:31:54,337 [INFO]   ⏳ Waiting 12.4s...
+2026-04-14 09:32:06,755 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:32:06,755 [INFO] [38/109] Processing: Syndra Kurumi
+2026-04-14 09:32:06,755 [INFO]   📦 Placing in Part1 (37/990 mods)
+2026-04-14 09:32:06,755 [INFO]   URL: https://ko-fi.com/s/3c9b760ceb
+2026-04-14 09:32:06,755 [INFO]   Name: Siriporn Thaworn
+2026-04-14 09:32:06,755 [INFO]   Target: Part1/Syndra Kurumi/
+2026-04-14 09:32:08,040 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:32:08,048 [INFO] Cloudflare captcha is solved
+2026-04-14 09:32:10,458 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:32:11,644 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:32:12,498 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:32:13,286 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:32:15,336 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:32:16,218 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:32:36,224 [ERROR]   ❌ Checkout failed: Timeout 20000ms exceeded.
+2026-04-14 09:32:36,224 [ERROR] Error executing page_action: Timeout 20000ms exceeded.
+2026-04-14 09:32:36,288 [INFO] Fetched (200) <GET https://ko-fi.com/summary/403d99ca-3453-4c7d-93a7-4fcd5e56e9b8> (referer: https://www.google.com/)
+2026-04-14 09:32:36,312 [WARNING]   ⚠️ Syndra Kurumi: No file downloaded
+2026-04-14 09:32:36,312 [INFO]   ⏳ Waiting 15.1s...
+2026-04-14 09:32:51,412 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:32:51,412 [INFO] [39/109] Processing: Karma Masha
+2026-04-14 09:32:51,412 [INFO]   📦 Placing in Part1 (38/990 mods)
+2026-04-14 09:32:51,412 [INFO]   URL: https://ko-fi.com/s/e1473b2aca
+2026-04-14 09:32:51,412 [INFO]   Name: Siriporn Smith
+2026-04-14 09:32:51,412 [INFO]   Target: Part1/Karma Masha/
+2026-04-14 09:32:52,683 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:32:52,691 [INFO] Cloudflare captcha is solved
+2026-04-14 09:32:54,942 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:32:55,947 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:32:57,381 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:32:58,315 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:33:01,216 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:33:01,820 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:33:03,914 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:33:06,048 [INFO]   [Step 4] Email filled
+2026-04-14 09:33:08,150 [INFO]   [Step 4] Name filled: Siriporn Smith
+2026-04-14 09:33:09,574 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:33:10,704 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:33:20,297 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=403d99ca-3453-4c7d-93a7-4fcd5e56e9b8&mode=g
+2026-04-14 09:33:20,297 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:33:20,370 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:33:34,030 [INFO]   ✅ Downloaded: Karma Masha.fantome (12.83 MB)
+2026-04-14 09:33:34,365 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=403d99ca-3453-4c7d-93a7-4fcd5e56e9b8&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:33:34,696 [INFO]   📊 Batch size: 516.62 MB / 999 MB
+2026-04-14 09:33:34,697 [INFO]   ✅ Karma Masha completed!
+2026-04-14 09:33:34,697 [INFO]   ⏳ Waiting 13.6s...
+2026-04-14 09:33:48,343 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:33:48,343 [INFO] [40/109] Processing: Nilah Midnight
+2026-04-14 09:33:48,343 [INFO]   📦 Placing in Part1 (39/990 mods)
+2026-04-14 09:33:48,343 [INFO]   URL: https://ko-fi.com/s/cf08e3db4a
+2026-04-14 09:33:48,343 [INFO]   Name: Linh Reyes
+2026-04-14 09:33:48,343 [INFO]   Target: Part1/Nilah Midnight/
+2026-04-14 09:33:49,629 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:33:49,637 [INFO] Cloudflare captcha is solved
+2026-04-14 09:33:52,459 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:33:53,331 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:33:54,500 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:33:55,443 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:33:58,410 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:33:59,023 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:34:02,015 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:34:05,666 [INFO]   [Step 4] Email filled
+2026-04-14 09:34:07,545 [INFO]   [Step 4] Name filled: Linh Reyes
+2026-04-14 09:34:08,954 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:34:10,214 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:34:17,722 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=3ff27772-2d86-4e0b-880e-04ca89446938&mode=g
+2026-04-14 09:34:17,722 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:34:17,794 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:34:35,734 [INFO]   ✅ Downloaded: Nilah Midnight.fantome (26.17 MB)
+2026-04-14 09:34:36,225 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=3ff27772-2d86-4e0b-880e-04ca89446938&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:34:36,776 [INFO]   📊 Batch size: 542.79 MB / 999 MB
+2026-04-14 09:34:36,777 [INFO]   ✅ Nilah Midnight completed!
+2026-04-14 09:34:36,777 [INFO]   ☕ Cooloff: 38.3s
+2026-04-14 09:35:15,096 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:35:15,097 [INFO] [41/109] Processing: Vladimir Gojo
+2026-04-14 09:35:15,097 [INFO]   📦 Placing in Part1 (40/990 mods)
+2026-04-14 09:35:15,097 [INFO]   URL: https://ko-fi.com/s/aa36d6d2c8
+2026-04-14 09:35:15,097 [INFO]   Name: Alessandro Bianchi
+2026-04-14 09:35:15,097 [INFO]   Target: Part1/Vladimir Gojo/
+2026-04-14 09:35:16,685 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:35:16,693 [INFO] Cloudflare captcha is solved
+2026-04-14 09:35:20,543 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:35:21,645 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:35:22,630 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:35:23,732 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:35:26,474 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:35:27,269 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:35:29,808 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:35:32,985 [INFO]   [Step 4] Email filled
+2026-04-14 09:35:35,231 [INFO]   [Step 4] Name filled: Alessandro Bianchi
+2026-04-14 09:35:36,612 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:35:37,775 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:35:48,537 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=a4451e87-2052-423a-a851-53f7aaab707d&mode=g
+2026-04-14 09:35:48,537 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:35:48,604 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:36:00,652 [INFO]   ✅ Downloaded: Vladimir Gojo.fantome (13.18 MB)
+2026-04-14 09:36:00,855 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=a4451e87-2052-423a-a851-53f7aaab707d&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:36:01,396 [INFO]   📊 Batch size: 555.97 MB / 999 MB
+2026-04-14 09:36:01,418 [INFO]   ✅ Vladimir Gojo completed!
+2026-04-14 09:36:01,418 [INFO]   ⏳ Waiting 19.5s...
+2026-04-14 09:36:20,886 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:36:20,886 [INFO] [42/109] Processing: Master Yi Inosuke
+2026-04-14 09:36:20,886 [INFO]   📦 Placing in Part1 (41/990 mods)
+2026-04-14 09:36:20,886 [INFO]   URL: https://ko-fi.com/s/cd9104cadc
+2026-04-14 09:36:20,886 [INFO]   Name: Carlo Srisai
+2026-04-14 09:36:20,886 [INFO]   Target: Part1/Master Yi Inosuke/
+2026-04-14 09:36:22,253 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:36:22,263 [INFO] Cloudflare captcha is solved
+2026-04-14 09:36:26,276 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:36:27,489 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:36:28,896 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:36:29,688 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:36:33,515 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:36:34,531 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:36:36,896 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:36:40,614 [INFO]   [Step 4] Email filled
+2026-04-14 09:36:42,845 [INFO]   [Step 4] Name filled: Carlo Srisai
+2026-04-14 09:36:44,159 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:36:48,099 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:36:54,746 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=3ceb7a6e-dec3-45aa-962d-790e706558d8&mode=g
+2026-04-14 09:36:54,747 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:36:54,815 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:37:21,303 [INFO]   ✅ Downloaded: Master Yi Inosuke.fantome (6.96 MB)
+2026-04-14 09:37:21,794 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=3ceb7a6e-dec3-45aa-962d-790e706558d8&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:37:22,352 [INFO]   📊 Batch size: 562.93 MB / 999 MB
+2026-04-14 09:37:22,354 [INFO]   ✅ Master Yi Inosuke completed!
+2026-04-14 09:37:22,354 [INFO]   ⏳ Waiting 17.9s...
+2026-04-14 09:37:40,248 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:37:40,248 [INFO] [43/109] Processing: Ezrael Finger Bearer
+2026-04-14 09:37:40,248 [INFO]   📦 Placing in Part1 (42/990 mods)
+2026-04-14 09:37:40,248 [INFO]   URL: https://ko-fi.com/s/f0672d1754
+2026-04-14 09:37:40,248 [INFO]   Name: Pravit Do
+2026-04-14 09:37:40,248 [INFO]   Target: Part1/Ezrael Finger Bearer/
+2026-04-14 09:37:41,555 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:37:41,563 [INFO] Cloudflare captcha is solved
+2026-04-14 09:37:44,695 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:37:45,664 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:37:46,916 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:37:47,954 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:37:50,338 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:37:51,405 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:37:54,323 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:37:57,865 [INFO]   [Step 4] Email filled
+2026-04-14 09:37:59,543 [INFO]   [Step 4] Name filled: Pravit Do
+2026-04-14 09:38:00,933 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:38:02,367 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:38:13,270 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=673c828b-7d37-4e43-9d6d-0dc8e126297e&mode=g
+2026-04-14 09:38:13,270 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:38:13,343 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:38:23,249 [INFO]   ✅ Downloaded: Ezrael Finger Bearer.fantome (6.46 MB)
+2026-04-14 09:38:23,713 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=673c828b-7d37-4e43-9d6d-0dc8e126297e&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:38:24,608 [INFO]   📊 Batch size: 569.39 MB / 999 MB
+2026-04-14 09:38:24,626 [INFO]   ✅ Ezrael Finger Bearer completed!
+2026-04-14 09:38:24,626 [INFO]   ⏳ Waiting 18.3s...
+2026-04-14 09:38:42,886 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:38:42,886 [INFO] [44/109] Processing: Viktor Overhaul
+2026-04-14 09:38:42,886 [INFO]   📦 Placing in Part1 (43/990 mods)
+2026-04-14 09:38:42,886 [INFO]   URL: https://ko-fi.com/s/e7c0f8913b
+2026-04-14 09:38:42,886 [INFO]   Name: Dewi Srisai
+2026-04-14 09:38:42,886 [INFO]   Target: Part1/Viktor Overhaul/
+2026-04-14 09:38:44,153 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:38:44,161 [INFO] Cloudflare captcha is solved
+2026-04-14 09:38:47,332 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:38:48,315 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:38:49,566 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:38:50,442 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:38:53,776 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:38:54,457 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:38:57,540 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:39:01,198 [INFO]   [Step 4] Email filled
+2026-04-14 09:39:02,826 [INFO]   [Step 4] Name filled: Dewi Srisai
+2026-04-14 09:39:03,885 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:39:04,856 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:39:12,890 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=30acdc73-e321-4911-8cf1-889fb9e9fc90&mode=g
+2026-04-14 09:39:12,890 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:39:12,965 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:39:35,993 [INFO]   ✅ Downloaded: Viktor Overhaul.fantome (36.09 MB)
+2026-04-14 09:39:36,346 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=30acdc73-e321-4911-8cf1-889fb9e9fc90&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:39:36,826 [INFO]   📊 Batch size: 605.48 MB / 999 MB
+2026-04-14 09:39:36,828 [INFO]   ✅ Viktor Overhaul completed!
+2026-04-14 09:39:36,828 [INFO]   ⏳ Waiting 8.4s...
+2026-04-14 09:39:45,261 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:39:45,261 [INFO] [45/109] Processing: Yasuo Yuta
+2026-04-14 09:39:45,261 [INFO]   📦 Placing in Part1 (44/990 mods)
+2026-04-14 09:39:45,261 [INFO]   URL: https://ko-fi.com/s/26e2076178
+2026-04-14 09:39:45,261 [INFO]   Name: Lukas Santos
+2026-04-14 09:39:45,261 [INFO]   Target: Part1/Yasuo Yuta/
+2026-04-14 09:39:46,618 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:39:46,626 [INFO] Cloudflare captcha is solved
+2026-04-14 09:39:49,004 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:39:49,846 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:39:50,804 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:39:51,846 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:39:55,208 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:39:56,046 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:39:59,313 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:40:01,622 [INFO]   [Step 4] Email filled
+2026-04-14 09:40:03,915 [INFO]   [Step 4] Name filled: Lukas Santos
+2026-04-14 09:40:05,575 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:40:06,821 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:40:16,590 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=a0ccc1ab-3d21-4ca0-a0af-3653297d223f&mode=g
+2026-04-14 09:40:16,590 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:40:16,676 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:40:26,932 [INFO]   ✅ Downloaded: Yasuo Yuta.fantome (10.09 MB)
+2026-04-14 09:40:27,294 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=a0ccc1ab-3d21-4ca0-a0af-3653297d223f&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:40:27,698 [INFO]   📊 Batch size: 615.57 MB / 999 MB
+2026-04-14 09:40:27,705 [INFO]   ✅ Yasuo Yuta completed!
+2026-04-14 09:40:27,705 [INFO]   ☕ Cooloff: 46.6s
+2026-04-14 09:41:14,308 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:41:14,308 [INFO] [46/109] Processing: Brand Jogo
+2026-04-14 09:41:14,308 [INFO]   📦 Placing in Part1 (45/990 mods)
+2026-04-14 09:41:14,308 [INFO]   URL: https://ko-fi.com/s/c673cbf507
+2026-04-14 09:41:14,310 [INFO]   Name: Somchai Tran
+2026-04-14 09:41:14,310 [INFO]   Target: Part1/Brand Jogo/
+2026-04-14 09:41:15,704 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:41:15,712 [INFO] Cloudflare captcha is solved
+2026-04-14 09:41:19,352 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:41:20,570 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:41:21,623 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:41:22,812 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:41:25,461 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:41:26,366 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:41:29,695 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:41:33,267 [INFO]   [Step 4] Email filled
+2026-04-14 09:41:35,592 [INFO]   [Step 4] Name filled: Somchai Tran
+2026-04-14 09:41:37,078 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:41:38,132 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:41:46,622 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=657326b9-53c7-4ccd-8bf4-484a92dd9b31&mode=g
+2026-04-14 09:41:46,622 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:41:46,694 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:41:56,747 [INFO]   ✅ Downloaded: Brand Jogo.fantome (9.60 MB)
+2026-04-14 09:41:57,214 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=657326b9-53c7-4ccd-8bf4-484a92dd9b31&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:41:57,568 [INFO]   📊 Batch size: 625.17 MB / 999 MB
+2026-04-14 09:41:57,576 [INFO]   ✅ Brand Jogo completed!
+2026-04-14 09:41:57,576 [INFO]   ⏳ Waiting 13.1s...
+2026-04-14 09:42:10,715 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:42:10,715 [INFO] [47/109] Processing: Ryze Light
+2026-04-14 09:42:10,715 [INFO]   📦 Placing in Part1 (46/990 mods)
+2026-04-14 09:42:10,715 [INFO]   URL: https://ko-fi.com/s/b49a0dcb20
+2026-04-14 09:42:10,715 [INFO]   Name: Charlotte Brown
+2026-04-14 09:42:10,715 [INFO]   Target: Part1/Ryze Light/
+2026-04-14 09:42:11,988 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:42:11,994 [INFO] Cloudflare captcha is solved
+2026-04-14 09:42:14,766 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:42:15,715 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:42:16,932 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:42:17,894 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:42:20,011 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:42:21,000 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:42:23,587 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:42:27,348 [INFO]   [Step 4] Email filled
+2026-04-14 09:42:29,347 [INFO]   [Step 4] Name filled: Charlotte Brown
+2026-04-14 09:42:30,857 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:42:31,853 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:42:39,010 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=44002f0b-c13e-46de-b7d5-3f03cb95e56d&mode=g
+2026-04-14 09:42:39,010 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:42:39,107 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:42:50,403 [INFO]   ✅ Downloaded: Ryze Light.fantome (13.47 MB)
+2026-04-14 09:42:50,661 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=44002f0b-c13e-46de-b7d5-3f03cb95e56d&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:42:51,071 [INFO]   📊 Batch size: 638.64 MB / 999 MB
+2026-04-14 09:42:51,071 [INFO]   ✅ Ryze Light completed!
+2026-04-14 09:42:51,071 [INFO]   ⏳ Waiting 8.3s...
+2026-04-14 09:42:59,368 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:42:59,368 [INFO] [48/109] Processing: Twisted Fate Sukuna
+2026-04-14 09:42:59,368 [INFO]   📦 Placing in Part1 (47/990 mods)
+2026-04-14 09:42:59,368 [INFO]   URL: https://ko-fi.com/s/c3637da4a3
+2026-04-14 09:42:59,368 [INFO]   Name: Luca Santos
+2026-04-14 09:42:59,368 [INFO]   Target: Part1/Twisted Fate Sukuna/
+2026-04-14 09:43:00,640 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:43:00,648 [INFO] Cloudflare captcha is solved
+2026-04-14 09:43:03,976 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:43:04,703 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:43:06,015 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:43:06,725 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:43:09,984 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:43:10,672 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:43:30,678 [ERROR]   ❌ Checkout failed: Timeout 20000ms exceeded.
+2026-04-14 09:43:30,678 [ERROR] Error executing page_action: Timeout 20000ms exceeded.
+2026-04-14 09:43:30,708 [INFO] Fetched (200) <GET https://ko-fi.com/summary/3e2c760f-03bd-4798-9ea6-65e6e2ffa250> (referer: https://www.google.com/)
+2026-04-14 09:43:30,731 [WARNING]   ⚠️ Twisted Fate Sukuna: No file downloaded
+2026-04-14 09:43:30,731 [INFO]   ⏳ Waiting 10.8s...
+2026-04-14 09:43:41,558 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:43:41,558 [INFO] [49/109] Processing: Teemo Mineta
+2026-04-14 09:43:41,558 [INFO]   📦 Placing in Part1 (48/990 mods)
+2026-04-14 09:43:41,558 [INFO]   URL: https://ko-fi.com/s/c3d93c3e80
+2026-04-14 09:43:41,558 [INFO]   Name: Hans Santos
+2026-04-14 09:43:41,558 [INFO]   Target: Part1/Teemo Mineta/
+2026-04-14 09:43:42,907 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:43:42,917 [INFO] Cloudflare captcha is solved
+2026-04-14 09:43:46,144 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:43:47,155 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:43:48,613 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:43:49,254 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:43:52,834 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:43:53,601 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:43:56,580 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:43:59,048 [INFO]   [Step 4] Email filled
+2026-04-14 09:44:01,278 [INFO]   [Step 4] Name filled: Hans Santos
+2026-04-14 09:44:02,673 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:44:03,961 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:44:13,420 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=3e2c760f-03bd-4798-9ea6-65e6e2ffa250&mode=g
+2026-04-14 09:44:13,420 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:44:13,493 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:44:22,606 [INFO]   ✅ Downloaded: Teemo Mineta.fantome (8.98 MB)
+2026-04-14 09:44:22,923 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=3e2c760f-03bd-4798-9ea6-65e6e2ffa250&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:44:23,421 [INFO]   📊 Batch size: 647.62 MB / 999 MB
+2026-04-14 09:44:23,421 [INFO]   ✅ Teemo Mineta completed!
+2026-04-14 09:44:23,423 [INFO]   ⏳ Waiting 16.5s...
+2026-04-14 09:44:39,972 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:44:39,972 [INFO] [50/109] Processing: Akali Cammie
+2026-04-14 09:44:39,972 [INFO]   📦 Placing in Part1 (49/990 mods)
+2026-04-14 09:44:39,972 [INFO]   URL: https://ko-fi.com/s/586265bf9a
+2026-04-14 09:44:39,972 [INFO]   Name: Miguel Wilson
+2026-04-14 09:44:39,972 [INFO]   Target: Part1/Akali Cammie/
+2026-04-14 09:44:41,263 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:44:41,271 [INFO] Cloudflare captcha is solved
+2026-04-14 09:44:45,228 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:44:46,463 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:44:47,412 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:44:48,088 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:44:50,744 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:44:51,573 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:44:54,840 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:44:57,972 [INFO]   [Step 4] Email filled
+2026-04-14 09:45:00,107 [INFO]   [Step 4] Name filled: Miguel Wilson
+2026-04-14 09:45:01,815 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:45:03,056 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:45:11,608 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=6d62eaf3-e3ec-4730-b7a5-323d8159ecb5&mode=g
+2026-04-14 09:45:11,608 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:45:11,681 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:45:32,997 [INFO]   ✅ Downloaded: Akali Cammie.fantome (36.63 MB)
+2026-04-14 09:45:33,347 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=6d62eaf3-e3ec-4730-b7a5-323d8159ecb5&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:45:33,658 [INFO]   📊 Batch size: 684.25 MB / 999 MB
+2026-04-14 09:45:33,658 [INFO]   ✅ Akali Cammie completed!
+2026-04-14 09:45:33,660 [INFO]   ☕ Cooloff: 42.1s
+2026-04-14 09:46:15,714 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:46:15,714 [INFO] [51/109] Processing: Talon Mahoraga
+2026-04-14 09:46:15,714 [INFO]   📦 Placing in Part1 (50/990 mods)
+2026-04-14 09:46:15,714 [INFO]   URL: https://ko-fi.com/s/0f1e366ed2
+2026-04-14 09:46:15,714 [INFO]   Name: Kanya Prasetyo
+2026-04-14 09:46:15,714 [INFO]   Target: Part1/Talon Mahoraga/
+2026-04-14 09:46:17,032 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:46:17,040 [INFO] Cloudflare captcha is solved
+2026-04-14 09:46:19,823 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:46:21,025 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:46:22,005 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:46:22,650 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:46:25,964 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:46:26,906 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:46:29,429 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:46:32,322 [INFO]   [Step 4] Email filled
+2026-04-14 09:46:34,236 [INFO]   [Step 4] Name filled: Kanya Prasetyo
+2026-04-14 09:46:36,164 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:46:37,314 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:46:46,394 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=c2282269-fb5a-4782-a310-e26bda8515ef&mode=g
+2026-04-14 09:46:46,394 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:46:46,483 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:46:53,269 [INFO]   ✅ Downloaded: Talon Mahoraga.fantome (3.43 MB)
+2026-04-14 09:46:53,740 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=c2282269-fb5a-4782-a310-e26bda8515ef&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:46:54,208 [INFO]   📊 Batch size: 687.68 MB / 999 MB
+2026-04-14 09:46:54,208 [INFO]   ✅ Talon Mahoraga completed!
+2026-04-14 09:46:54,208 [INFO]   ⏳ Waiting 12.1s...
+2026-04-14 09:47:06,304 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:47:06,304 [INFO] [52/109] Processing: Taric Usopp
+2026-04-14 09:47:06,304 [INFO]   📦 Placing in Part1 (51/990 mods)
+2026-04-14 09:47:06,304 [INFO]   URL: https://ko-fi.com/s/7cb79bac3f
+2026-04-14 09:47:06,304 [INFO]   Name: Rosa Lefevre
+2026-04-14 09:47:06,304 [INFO]   Target: Part1/Taric Usopp/
+2026-04-14 09:47:08,647 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:47:08,655 [INFO] Cloudflare captcha is solved
+2026-04-14 09:47:10,704 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:47:12,017 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:47:13,221 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:47:14,320 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:47:17,583 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:47:18,173 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:47:20,379 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:47:23,415 [INFO]   [Step 4] Email filled
+2026-04-14 09:47:25,344 [INFO]   [Step 4] Name filled: Rosa Lefevre
+2026-04-14 09:47:27,099 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:47:28,277 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:47:34,770 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=30a7ca23-d730-4ec7-b3b0-728610780e94&mode=g
+2026-04-14 09:47:34,770 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:47:34,857 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:47:50,068 [INFO]   ✅ Downloaded: Taric Usopp.fantome (17.98 MB)
+2026-04-14 09:47:50,361 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=30a7ca23-d730-4ec7-b3b0-728610780e94&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:47:50,669 [INFO]   📊 Batch size: 705.67 MB / 999 MB
+2026-04-14 09:47:50,670 [INFO]   ✅ Taric Usopp completed!
+2026-04-14 09:47:50,670 [INFO]   ⏳ Waiting 10.2s...
+2026-04-14 09:48:00,925 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:48:00,925 [INFO] [53/109] Processing: Shaco Twice
+2026-04-14 09:48:00,925 [INFO]   📦 Placing in Part1 (52/990 mods)
+2026-04-14 09:48:00,925 [INFO]   URL: https://ko-fi.com/s/a8f6ecd95e
+2026-04-14 09:48:00,925 [INFO]   Name: Arief Dang
+2026-04-14 09:48:00,925 [INFO]   Target: Part1/Shaco Twice/
+2026-04-14 09:48:02,202 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:48:02,211 [INFO] Cloudflare captcha is solved
+2026-04-14 09:48:05,505 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:48:06,531 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:48:07,606 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:48:08,756 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:48:10,836 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:48:11,481 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:48:14,293 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:48:16,674 [INFO]   [Step 4] Email filled
+2026-04-14 09:48:18,459 [INFO]   [Step 4] Name filled: Arief Dang
+2026-04-14 09:48:19,677 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:48:21,065 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:48:30,075 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=19ef653f-357b-4e2e-b759-744b386d4489&mode=g
+2026-04-14 09:48:30,075 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:48:30,147 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:48:39,678 [INFO]   ✅ Downloaded: Shaco Twice.fantome (7.72 MB)
+2026-04-14 09:48:40,273 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=19ef653f-357b-4e2e-b759-744b386d4489&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:48:40,733 [INFO]   📊 Batch size: 713.39 MB / 999 MB
+2026-04-14 09:48:40,735 [INFO]   ✅ Shaco Twice completed!
+2026-04-14 09:48:40,735 [INFO]   ⏳ Waiting 16.8s...
+2026-04-14 09:48:57,563 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:48:57,563 [INFO] [54/109] Processing: K'Santé Denji
+2026-04-14 09:48:57,563 [INFO]   📦 Placing in Part1 (53/990 mods)
+2026-04-14 09:48:57,563 [INFO]   URL: https://ko-fi.com/s/de7043f509
+2026-04-14 09:48:57,563 [INFO]   Name: Antoine Russo
+2026-04-14 09:48:57,563 [INFO]   Target: Part1/K'Santé Denji/
+2026-04-14 09:48:58,886 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:48:58,892 [INFO] Cloudflare captcha is solved
+2026-04-14 09:49:01,669 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:49:02,660 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:49:03,817 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:49:04,950 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:49:07,251 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:49:08,104 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:49:10,324 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:49:13,803 [INFO]   [Step 4] Email filled
+2026-04-14 09:49:16,381 [INFO]   [Step 4] Name filled: Antoine Russo
+2026-04-14 09:49:17,950 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:49:18,939 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:49:30,185 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=8fd35e56-80e3-4ff3-bf17-e53b7d6dec1d&mode=g
+2026-04-14 09:49:30,185 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:49:30,258 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:49:45,573 [INFO]   ✅ Downloaded: K'Santé Denji.fantome (20.53 MB)
+2026-04-14 09:49:45,914 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=8fd35e56-80e3-4ff3-bf17-e53b7d6dec1d&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:49:46,273 [INFO]   📊 Batch size: 733.92 MB / 999 MB
+2026-04-14 09:49:46,303 [INFO]   ✅ K'Santé Denji completed!
+2026-04-14 09:49:46,303 [INFO]   ⏳ Waiting 10.9s...
+2026-04-14 09:49:57,249 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:49:57,249 [INFO] [55/109] Processing: Vi Deku
+2026-04-14 09:49:57,249 [INFO]   📦 Placing in Part1 (54/990 mods)
+2026-04-14 09:49:57,249 [INFO]   URL: https://ko-fi.com/s/e75ac7dbd8
+2026-04-14 09:49:57,249 [INFO]   Name: Arief Brown
+2026-04-14 09:49:57,249 [INFO]   Target: Part1/Vi Deku/
+2026-04-14 09:49:58,512 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:49:58,518 [INFO] Cloudflare captcha is solved
+2026-04-14 09:50:01,370 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:50:02,730 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:50:03,835 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:50:04,972 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:50:08,631 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:50:09,728 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:50:12,393 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:50:15,033 [INFO]   [Step 4] Email filled
+2026-04-14 09:50:16,740 [INFO]   [Step 4] Name filled: Arief Brown
+2026-04-14 09:50:18,306 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:50:19,714 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:50:27,935 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=d91edecb-4d81-4ced-a990-a3358a3db1bb&mode=g
+2026-04-14 09:50:27,935 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:50:28,009 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:50:41,247 [INFO]   ✅ Downloaded: Vi Deku.fantome (17.71 MB)
+2026-04-14 09:50:41,597 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=d91edecb-4d81-4ced-a990-a3358a3db1bb&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:50:42,077 [INFO]   📊 Batch size: 751.62 MB / 999 MB
+2026-04-14 09:50:42,077 [INFO]   ✅ Vi Deku completed!
+2026-04-14 09:50:42,077 [INFO]   ☕ Cooloff: 36.5s
+2026-04-14 09:51:18,574 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:51:18,574 [INFO] [56/109] Processing: Nilah Rem
+2026-04-14 09:51:18,574 [INFO]   📦 Placing in Part1 (55/990 mods)
+2026-04-14 09:51:18,574 [INFO]   URL: https://ko-fi.com/s/0b86bc9da1
+2026-04-14 09:51:18,574 [INFO]   Name: Ana Brown
+2026-04-14 09:51:18,574 [INFO]   Target: Part1/Nilah Rem/
+2026-04-14 09:51:19,927 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:51:19,935 [INFO] Cloudflare captcha is solved
+2026-04-14 09:51:22,789 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:51:23,643 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:51:24,559 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:51:25,269 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:51:29,078 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:51:30,003 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:51:33,189 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:51:37,425 [INFO]   [Step 4] Email filled
+2026-04-14 09:51:39,251 [INFO]   [Step 4] Name filled: Ana Brown
+2026-04-14 09:51:40,683 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:51:41,708 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:51:51,329 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=20c92994-c8ee-4dbd-a187-a18f564fb230&mode=g
+2026-04-14 09:51:51,329 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:51:51,405 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:52:04,689 [INFO]   ✅ Downloaded: Nilah Rem.fantome (13.17 MB)
+2026-04-14 09:52:05,207 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=20c92994-c8ee-4dbd-a187-a18f564fb230&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:52:05,745 [INFO]   📊 Batch size: 764.79 MB / 999 MB
+2026-04-14 09:52:05,745 [INFO]   ✅ Nilah Rem completed!
+2026-04-14 09:52:05,745 [INFO]   ⏳ Waiting 12.7s...
+2026-04-14 09:52:18,404 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:52:18,405 [INFO] [57/109] Processing: Irelia Sukuna
+2026-04-14 09:52:18,405 [INFO]   📦 Placing in Part1 (56/990 mods)
+2026-04-14 09:52:18,405 [INFO]   URL: https://ko-fi.com/s/ac15a46648
+2026-04-14 09:52:18,405 [INFO]   Name: Pierre Lefevre
+2026-04-14 09:52:18,405 [INFO]   Target: Part1/Irelia Sukuna/
+2026-04-14 09:52:19,868 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:52:19,876 [INFO] Cloudflare captcha is solved
+2026-04-14 09:52:22,335 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:52:23,394 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:52:24,470 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:52:25,748 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:52:29,525 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:52:30,214 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:52:32,597 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:52:36,405 [INFO]   [Step 4] Email filled
+2026-04-14 09:52:38,113 [INFO]   [Step 4] Name filled: Pierre Lefevre
+2026-04-14 09:52:40,103 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:52:42,070 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:52:51,197 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=957f9ef0-17e8-4535-aa05-848fee6e674d&mode=g
+2026-04-14 09:52:51,197 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:52:51,264 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:53:05,031 [INFO]   ✅ Downloaded: Irelia Sukuna.fantome (19.13 MB)
+2026-04-14 09:53:05,373 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=957f9ef0-17e8-4535-aa05-848fee6e674d&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:53:05,844 [INFO]   📊 Batch size: 783.92 MB / 999 MB
+2026-04-14 09:53:05,853 [INFO]   ✅ Irelia Sukuna completed!
+2026-04-14 09:53:05,856 [INFO]   ⏳ Waiting 8.3s...
+2026-04-14 09:53:14,200 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:53:14,200 [INFO] [58/109] Processing: Lux Nami
+2026-04-14 09:53:14,200 [INFO]   📦 Placing in Part1 (57/990 mods)
+2026-04-14 09:53:14,200 [INFO]   URL: https://ko-fi.com/s/ae4c87798f
+2026-04-14 09:53:14,200 [INFO]   Name: Carlo Nguyen
+2026-04-14 09:53:14,200 [INFO]   Target: Part1/Lux Nami/
+2026-04-14 09:53:15,446 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:53:15,452 [INFO] Cloudflare captcha is solved
+2026-04-14 09:53:17,626 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:53:18,734 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:53:20,161 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:53:21,354 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:53:23,538 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:53:24,227 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:53:27,543 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:53:30,574 [INFO]   [Step 4] Email filled
+2026-04-14 09:53:32,756 [INFO]   [Step 4] Name filled: Carlo Nguyen
+2026-04-14 09:53:34,021 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:53:35,099 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:53:42,342 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=83159b02-bd1f-4081-aac7-ff5f1738e4ae&mode=g
+2026-04-14 09:53:42,342 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:53:42,415 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:53:52,493 [INFO]   ✅ Downloaded: Lux Nami.fantome (10.16 MB)
+2026-04-14 09:53:52,899 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=83159b02-bd1f-4081-aac7-ff5f1738e4ae&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:53:53,380 [INFO]   📊 Batch size: 794.08 MB / 999 MB
+2026-04-14 09:53:53,409 [INFO]   ✅ Lux Nami completed!
+2026-04-14 09:53:53,409 [INFO]   ⏳ Waiting 10.1s...
+2026-04-14 09:54:03,550 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:54:03,550 [INFO] [59/109] Processing: Gangplank Blackbeard
+2026-04-14 09:54:03,550 [INFO]   📦 Placing in Part1 (58/990 mods)
+2026-04-14 09:54:03,550 [INFO]   URL: https://ko-fi.com/s/e1d53de55f
+2026-04-14 09:54:03,550 [INFO]   Name: William Do
+2026-04-14 09:54:03,550 [INFO]   Target: Part1/Gangplank Blackbeard/
+2026-04-14 09:54:04,800 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:54:04,808 [INFO] Cloudflare captcha is solved
+2026-04-14 09:54:07,129 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:54:08,173 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:54:09,613 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:54:10,876 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:54:13,903 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:54:14,592 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:54:16,891 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:54:20,621 [INFO]   [Step 4] Email filled
+2026-04-14 09:54:22,265 [INFO]   [Step 4] Name filled: William Do
+2026-04-14 09:54:23,308 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:54:24,597 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:54:33,846 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=cd2aa76d-abae-4680-a163-8acc3276d2c9&mode=g
+2026-04-14 09:54:33,846 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:54:33,920 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:54:45,423 [INFO]   ✅ Downloaded: Gangplank Blackbeard.fantome (12.96 MB)
+2026-04-14 09:54:45,757 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=cd2aa76d-abae-4680-a163-8acc3276d2c9&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:54:46,084 [INFO]   📊 Batch size: 807.04 MB / 999 MB
+2026-04-14 09:54:46,116 [INFO]   ✅ Gangplank Blackbeard completed!
+2026-04-14 09:54:46,116 [INFO]   ⏳ Waiting 15.4s...
+2026-04-14 09:55:01,547 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:55:01,547 [INFO] [60/109] Processing: Akali Touka
+2026-04-14 09:55:01,547 [INFO]   📦 Placing in Part1 (59/990 mods)
+2026-04-14 09:55:01,547 [INFO]   URL: https://ko-fi.com/s/68c3868b87
+2026-04-14 09:55:01,547 [INFO]   Name: Siriporn Schneider
+2026-04-14 09:55:01,547 [INFO]   Target: Part1/Akali Touka/
+2026-04-14 09:55:02,816 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:55:02,825 [INFO] Cloudflare captcha is solved
+2026-04-14 09:55:05,408 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:55:06,547 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:55:07,381 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:55:08,594 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:55:12,502 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:55:13,220 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:55:15,761 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:55:18,808 [INFO]   [Step 4] Email filled
+2026-04-14 09:55:20,801 [INFO]   [Step 4] Name filled: Siriporn Schneider
+2026-04-14 09:55:22,380 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:55:23,432 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:55:31,206 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=65182957-97f0-4f44-9417-1af06508294c&mode=g
+2026-04-14 09:55:31,206 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:55:31,283 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:55:54,110 [INFO]   ✅ Downloaded: Akali Touka.fantome (35.47 MB)
+2026-04-14 09:55:54,514 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=65182957-97f0-4f44-9417-1af06508294c&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:55:55,000 [INFO]   📊 Batch size: 842.51 MB / 999 MB
+2026-04-14 09:55:55,001 [INFO]   ✅ Akali Touka completed!
+2026-04-14 09:55:55,001 [INFO]   ☕ Cooloff: 43.0s
+2026-04-14 09:56:38,028 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:56:38,028 [INFO] [61/109] Processing: Kassadin Boros
+2026-04-14 09:56:38,028 [INFO]   📦 Placing in Part1 (60/990 mods)
+2026-04-14 09:56:38,029 [INFO]   URL: https://ko-fi.com/s/bede75f8d7
+2026-04-14 09:56:38,029 [INFO]   Name: Chiara Russo
+2026-04-14 09:56:38,029 [INFO]   Target: Part1/Kassadin Boros/
+2026-04-14 09:56:39,388 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:56:39,396 [INFO] Cloudflare captcha is solved
+2026-04-14 09:56:42,422 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:56:43,560 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:56:44,746 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:56:45,455 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:56:48,787 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:56:49,711 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:56:51,808 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:56:54,795 [INFO]   [Step 4] Email filled
+2026-04-14 09:56:56,458 [INFO]   [Step 4] Name filled: Chiara Russo
+2026-04-14 09:56:58,069 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:56:59,064 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:57:06,429 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=b9dc39ac-1bb2-4d85-9451-6a3068db4c32&mode=g
+2026-04-14 09:57:06,429 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:57:06,528 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:57:14,225 [INFO]   ✅ Downloaded: Kassadin Boros.fantome (5.89 MB)
+2026-04-14 09:57:14,674 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=b9dc39ac-1bb2-4d85-9451-6a3068db4c32&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:57:15,140 [INFO]   📊 Batch size: 848.39 MB / 999 MB
+2026-04-14 09:57:15,140 [INFO]   ✅ Kassadin Boros completed!
+2026-04-14 09:57:15,140 [INFO]   ⏳ Waiting 9.7s...
+2026-04-14 09:57:24,803 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:57:24,803 [INFO] [62/109] Processing: Kaisa Alya
+2026-04-14 09:57:24,803 [INFO]   📦 Placing in Part1 (61/990 mods)
+2026-04-14 09:57:24,803 [INFO]   URL: https://ko-fi.com/s/7fbec5f0ef
+2026-04-14 09:57:24,803 [INFO]   Name: James Romano
+2026-04-14 09:57:24,803 [INFO]   Target: Part1/Kaisa Alya/
+2026-04-14 09:57:26,141 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:57:26,149 [INFO] Cloudflare captcha is solved
+2026-04-14 09:57:29,856 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:57:31,106 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:57:32,181 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:57:32,986 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:57:36,354 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:57:37,246 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:57:57,247 [ERROR]   ❌ Checkout failed: Timeout 20000ms exceeded.
+2026-04-14 09:57:57,247 [ERROR] Error executing page_action: Timeout 20000ms exceeded.
+2026-04-14 09:57:57,277 [INFO] Fetched (200) <GET https://ko-fi.com/summary/799acf0f-d460-42c8-bf61-8cb2bd75e6a6> (referer: https://www.google.com/)
+2026-04-14 09:57:57,303 [WARNING]   ⚠️ Kaisa Alya: No file downloaded
+2026-04-14 09:57:57,303 [INFO]   ⏳ Waiting 13.2s...
+2026-04-14 09:58:10,506 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:58:10,507 [INFO] [63/109] Processing: Ezrael Subaru
+2026-04-14 09:58:10,507 [INFO]   📦 Placing in Part1 (62/990 mods)
+2026-04-14 09:58:10,507 [INFO]   URL: https://ko-fi.com/s/ed18890ea3
+2026-04-14 09:58:10,507 [INFO]   Name: Huy Hidayat
+2026-04-14 09:58:10,507 [INFO]   Target: Part1/Ezrael Subaru/
+2026-04-14 09:58:11,791 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:58:11,799 [INFO] Cloudflare captcha is solved
+2026-04-14 09:58:14,255 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:58:15,279 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:58:16,157 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:58:17,409 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:58:21,205 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:58:22,109 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:58:24,174 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:58:27,322 [INFO]   [Step 4] Email filled
+2026-04-14 09:58:29,360 [INFO]   [Step 4] Name filled: Huy Hidayat
+2026-04-14 09:58:30,957 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:58:32,044 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:58:42,883 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=799acf0f-d460-42c8-bf61-8cb2bd75e6a6&mode=g
+2026-04-14 09:58:42,883 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:58:42,956 [INFO]   [Step 6] Clicked View Content
+2026-04-14 09:58:54,596 [INFO]   ✅ Downloaded: Ezrael Subaru.fantome (13.77 MB)
+2026-04-14 09:58:54,978 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=799acf0f-d460-42c8-bf61-8cb2bd75e6a6&mode=g> (referer: https://www.google.com/)
+2026-04-14 09:58:55,365 [INFO]   📊 Batch size: 862.16 MB / 999 MB
+2026-04-14 09:58:55,366 [INFO]   ✅ Ezrael Subaru completed!
+2026-04-14 09:58:55,366 [INFO]   ⏳ Waiting 17.9s...
+2026-04-14 09:59:13,303 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 09:59:13,303 [INFO] [64/109] Processing: Ahri Miku Nakano
+2026-04-14 09:59:13,303 [INFO]   📦 Placing in Part1 (63/990 mods)
+2026-04-14 09:59:13,303 [INFO]   URL: https://ko-fi.com/s/acb13da1dd
+2026-04-14 09:59:13,303 [INFO]   Name: Chiara Wijaya
+2026-04-14 09:59:13,303 [INFO]   Target: Part1/Ahri Miku Nakano/
+2026-04-14 09:59:14,630 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 09:59:14,638 [INFO] Cloudflare captcha is solved
+2026-04-14 09:59:18,359 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 09:59:19,576 [INFO]   [Step 1] Price set to 0
+2026-04-14 09:59:21,046 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 09:59:21,676 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 09:59:25,317 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 09:59:26,019 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 09:59:28,542 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 09:59:30,569 [INFO]   [Step 4] Email filled
+2026-04-14 09:59:32,481 [INFO]   [Step 4] Name filled: Chiara Wijaya
+2026-04-14 09:59:33,619 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 09:59:34,606 [INFO]   [Step 5] Checkout clicked
+2026-04-14 09:59:42,571 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=d233e112-d509-4526-af1d-d6f3eec44677&mode=g
+2026-04-14 09:59:42,571 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 09:59:42,639 [INFO]   [Step 6] Clicked View Content
+2026-04-14 10:00:10,065 [INFO]   ✅ Downloaded: Ahri Miku Nakano.fantome (43.69 MB)
+2026-04-14 10:00:10,437 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=d233e112-d509-4526-af1d-d6f3eec44677&mode=g> (referer: https://www.google.com/)
+2026-04-14 10:00:10,920 [INFO]   📊 Batch size: 905.85 MB / 999 MB
+2026-04-14 10:00:10,921 [INFO]   ✅ Ahri Miku Nakano completed!
+2026-04-14 10:00:10,921 [INFO]   ⏳ Waiting 15.7s...
+2026-04-14 10:00:26,593 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 10:00:26,593 [INFO] [65/109] Processing: Sett Attack Titan
+2026-04-14 10:00:26,593 [INFO]   📦 Placing in Part1 (64/990 mods)
+2026-04-14 10:00:26,593 [INFO]   URL: https://ko-fi.com/s/18dea46162
+2026-04-14 10:00:26,593 [INFO]   Name: Ana Nguyen
+2026-04-14 10:00:26,593 [INFO]   Target: Part1/Sett Attack Titan/
+2026-04-14 10:00:27,941 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 10:00:27,949 [INFO] Cloudflare captcha is solved
+2026-04-14 10:00:31,814 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 10:00:32,732 [INFO]   [Step 1] Price set to 0
+2026-04-14 10:00:33,681 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 10:00:34,436 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 10:00:36,625 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 10:00:37,582 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 10:00:40,060 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 10:00:43,774 [INFO]   [Step 4] Email filled
+2026-04-14 10:00:45,592 [INFO]   [Step 4] Name filled: Ana Nguyen
+2026-04-14 10:00:47,094 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 10:00:48,369 [INFO]   [Step 5] Checkout clicked
+2026-04-14 10:00:56,483 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=ee20a81e-bfe6-4e4a-b47f-ebf547e9e294&mode=g
+2026-04-14 10:00:56,483 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 10:00:56,556 [INFO]   [Step 6] Clicked View Content
+2026-04-14 10:01:18,885 [INFO]   ✅ Downloaded: Sett Attack Titan.fantome (30.26 MB)
+2026-04-14 10:01:19,293 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=ee20a81e-bfe6-4e4a-b47f-ebf547e9e294&mode=g> (referer: https://www.google.com/)
+2026-04-14 10:01:19,818 [INFO]   📊 Batch size: 936.12 MB / 999 MB
+2026-04-14 10:01:19,830 [INFO]   ✅ Sett Attack Titan completed!
+2026-04-14 10:01:19,830 [INFO]   ☕ Cooloff: 37.8s
+2026-04-14 10:01:57,675 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 10:01:57,675 [INFO] [66/109] Processing: Galio Armored Titan
+2026-04-14 10:01:57,675 [INFO]   📦 Placing in Part1 (65/990 mods)
+2026-04-14 10:01:57,675 [INFO]   URL: https://ko-fi.com/s/a6c7148277
+2026-04-14 10:01:57,675 [INFO]   Name: Agus Smith
+2026-04-14 10:01:57,676 [INFO]   Target: Part1/Galio Armored Titan/
+2026-04-14 10:01:58,956 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 10:01:58,964 [INFO] Cloudflare captcha is solved
+2026-04-14 10:02:01,282 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 10:02:02,331 [INFO]   [Step 1] Price set to 0
+2026-04-14 10:02:03,275 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 10:02:04,408 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 10:02:07,852 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 10:02:08,778 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 10:02:11,392 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 10:02:13,638 [INFO]   [Step 4] Email filled
+2026-04-14 10:02:15,454 [INFO]   [Step 4] Name filled: Agus Smith
+2026-04-14 10:02:17,414 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 10:02:18,672 [INFO]   [Step 5] Checkout clicked
+2026-04-14 10:02:25,197 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=9f5040f9-ba69-460f-90cd-14b13625ff53&mode=g
+2026-04-14 10:02:25,197 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 10:02:25,272 [INFO]   [Step 6] Clicked View Content
+2026-04-14 10:02:36,886 [INFO]   ✅ Downloaded: Galio Armored Titan.fantome (9.09 MB)
+2026-04-14 10:02:37,169 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=9f5040f9-ba69-460f-90cd-14b13625ff53&mode=g> (referer: https://www.google.com/)
+2026-04-14 10:02:37,609 [INFO]   📊 Batch size: 945.20 MB / 999 MB
+2026-04-14 10:02:37,611 [INFO]   ✅ Galio Armored Titan completed!
+2026-04-14 10:02:37,611 [INFO]   ⏳ Waiting 8.5s...
+2026-04-14 10:02:46,101 [INFO] 
+──────────────────────────────────────────────────
+2026-04-14 10:02:46,102 [INFO] [67/109] Processing: Brand Dabi
+2026-04-14 10:02:46,102 [INFO]   📦 Placing in Part1 (66/990 mods)
+2026-04-14 10:02:46,102 [INFO]   URL: https://ko-fi.com/s/ff2cb5ac70
+2026-04-14 10:02:46,102 [INFO]   Name: Francesca Wijaya
+2026-04-14 10:02:46,102 [INFO]   Target: Part1/Brand Dabi/
+2026-04-14 10:02:47,357 [INFO] The turnstile version discovered is "embedded"
+2026-04-14 10:02:47,365 [INFO] Cloudflare captcha is solved
+2026-04-14 10:02:50,377 [INFO]   [Step 1] Setting price to 0...
+2026-04-14 10:02:51,578 [INFO]   [Step 1] Price set to 0
+2026-04-14 10:02:52,764 [INFO]   [Step 2] Clicking Get Now...
+2026-04-14 10:02:53,868 [INFO]   [Step 2] Clicked: #addToCartButton
+2026-04-14 10:02:56,959 [INFO]   [Step 3] Navigating to checkout...
+2026-04-14 10:02:58,034 [INFO]   [Step 3] Navigated: button:has-text("Checkout")
+2026-04-14 10:03:00,257 [INFO]   [Step 4] Filling checkout form...
+2026-04-14 10:03:02,471 [INFO]   [Step 4] Email filled
+2026-04-14 10:03:04,672 [INFO]   [Step 4] Name filled: Francesca Wijaya
+2026-04-14 10:03:05,732 [INFO]   [Step 5] Clicking Checkout Now...
+2026-04-14 10:03:06,722 [INFO]   [Step 5] Checkout clicked
+2026-04-14 10:03:16,240 [INFO]   [Step 5] Post-checkout URL: https://ko-fi.com/Home/CoffeeShop?txid=b0fcc354-0431-41d4-aa8e-78134851b9e8&mode=g
+2026-04-14 10:03:16,240 [INFO]   [Step 6] Looking for View Content...
+2026-04-14 10:03:16,316 [INFO]   [Step 6] Clicked View Content
+2026-04-14 10:03:27,177 [INFO]   ✅ Downloaded: Brand Dabi.fantome (10.40 MB)
+2026-04-14 10:03:27,823 [INFO] Fetched (200) <GET https://ko-fi.com/Home/CoffeeShop?txid=b0fcc354-0431-41d4-aa8e-78134851b9e8&mode=g> (referer: https://www.google.com/)
+2026-04-14 10:03:28,306 [INFO]   📊 Batch size: 955.61 MB / 999 MB
+2026-04-14 10:03:28,307 [INFO]   ✅ Brand Dabi completed!
+2026-04-14 10:03:28,605 [WARNING]   ⚠️ Cannot fetch raw JSON (404), using local only.
+2026-04-14 10:03:28,607 [INFO]   💾 Saved JSON: 64 total paths.
+2026-04-14 10:03:28,607 [INFO] 
+🚀 Pushing batch to GitHub...
