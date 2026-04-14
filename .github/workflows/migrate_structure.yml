@@ -1,0 +1,85 @@
+name: 🗂️ Migrate Structure to Zap_Storage_1
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Gõ "MIGRATE" để xác nhận di chuyển Part_X vào Zap_Storage_1/ và patch JSON'
+        required: true
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    if: github.event.inputs.confirm == 'MIGRATE'
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 🗂️ Di chuyển Part_X → Zap_Storage_1/Part_X
+        run: |
+          echo "🔍 Kiểm tra cấu trúc hiện tại..."
+          ls -la
+
+          # Tạo thư mục Zap_Storage_1 nếu chưa có
+          mkdir -p Zap_Storage_1
+
+          MOVED=0
+          for dir in Part*/; do
+            # Bỏ case rỗng nếu không có folder nào map pattern
+            [ -e "$dir" ] || continue
+            
+            dir="${dir%/}"  # bỏ trailing slash
+            if [ -d "$dir" ] && [[ "$dir" =~ ^Part[0-9]+$ ]]; then
+              if [ -d "Zap_Storage_1/$dir" ]; then
+                echo "  ⚠️ Zap_Storage_1/$dir đã tồn tại, bỏ qua $dir"
+              else
+                mv "$dir" "Zap_Storage_1/$dir"
+                echo "  ✅ Moved: $dir → Zap_Storage_1/$dir"
+                MOVED=$((MOVED + 1))
+              fi
+            fi
+          done
+
+          echo ""
+          echo "📦 Đã di chuyển $MOVED thư mục Part vào Zap_Storage_1/"
+
+      - name: 📋 Patch đường dẫn _zap_files.json
+        run: |
+          python -c "
+          import json, os
+          if os.path.exists('_zap_files.json'):
+              with open('_zap_files.json', 'r', encoding='utf-8') as f:
+                  data = json.load(f)
+              patched = 0
+              new_files = []
+              for path in data.get('files', []):
+                  if not path.startswith('Zap_Storage_1/'):
+                      new_files.append('Zap_Storage_1/' + path)
+                      patched += 1
+                  else:
+                      new_files.append(path)
+              data['files'] = new_files
+              with open('_zap_files.json', 'w', encoding='utf-8') as f:
+                  json.dump(data, f, separators=(',', ':'))
+              print(f'✅ Đã patch {patched} đường dẫn trong JSON index')
+          else:
+              print('ℹ️ Không tìm thấy _zap_files.json để patch')
+          "
+
+      - name: 📤 Commit và push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status
+          git diff --cached --stat
+          git commit -m "🗂️ [Migration] Restructure Part_X → Zap_Storage_1/Part_X and patch JSON" || echo "Không có gì thay đổi để commit"
+          git push || echo "Push aborted"
+          echo "🎉 Migration hoàn tất!"
