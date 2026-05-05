@@ -2,7 +2,7 @@ name: Zap Daily Crawl
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM UTC (1 PM UTC+7)
+   
   workflow_dispatch:       # Manual trigger
 
 jobs:
